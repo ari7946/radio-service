@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/ari7946/radio-service#readme",
   "devDependencies": {
-    "netlify-cli": "^2.40.0"
+    "netlify-cli": "^2.46.0"
   }
 }
