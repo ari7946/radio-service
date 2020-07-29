@@ -1,13 +1,80 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+    /* COLORS */
+    --color-primary: ##005C77;
+    --color-yellow:#FCCD04;
+    --color-green-dark: #005C77;
+    --color-green-light: #C9E1C8;
+    --color-orange: #FF652F;
+    --color-flat-orange: #FFCCBC;
+    --color-flat-green: #00887A;
+    --color-flat-blue: #77A6F7;
+
+    --color-grey-light-1: #faf9f9;
+    --color-grey-light-2: #f4f2f2;
+    --color-grey-light-3: #f0eeee;
+    --color-grey-light-4: #ccc;
+    
+    --color-grey-dark-1: #333;
+    --color-grey-dark-2: #777;
+    --color-grey-dark-3: #999;
+
+    /* FONTS */
+    --font-monospaced: "Courier New", Courier, monospace;
+    --font-monospaced-bold: "Lucida Console", Monaco, monospace;
+
+    /* BREAK POINTS */
+    --bp-large: 1100px;
+    --bp-medium: 900px;
+    --bp-small: 600px;
+
+    /* OTHER */
+    --shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
+    --shadow-light: 0 2rem 5rem rgba(0,0,0,.06);
+
+    --line: 1px solid var(--color-grey-light-2);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  /* 1rem = 10px, 10px/16px = 62.5% */
+  /* font-size: 62.5%;  */
+}
+
+body {
+  font-family: "Montserrat", "Helvetica-Neue", "Helvetica", "Arial", "sans-serif" !important;
+  letter-spacing: .08rem;
+  font-weight: 400;
+  line-height: 1.6;
+  min-height: 100vh;
+  background-color: var(--color-green-dark) !important;
+  max-width: 2500px;
+  margin: 0 auto !important;
+}
+
+@media (max-width: 1100px) {
+  .wrapper {
+    margin: 0 2rem 0 2rem 0!important;
+    letter-spacing: .06rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    margin: 0 0 !important;
+    padding: 0 !important;
+    letter-spacing: .04rem;
+  }
+}
+
+@media (max-width: 415px) {
+  .wrapper {
+    margin: 0 2rem 0 2rem 0!important;
+    letter-spacing: .02rem;
+  }
 }

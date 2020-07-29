@@ -1,0 +1,34 @@
+.main-menu {
+  color: #FFFFFF;
+  background: #343A40;
+  // position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+  border-bottom: 1px solid white;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+    li {
+      a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 1.2em;
+        font-weight: 400;
+        padding: .9em 1.3em;
+        display: block;
+        transition: all .5s ease;
+
+        &:hover {
+          color: lightgrey;
+        }
+      }
+    }
+  }
+}
