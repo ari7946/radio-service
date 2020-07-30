@@ -23,6 +23,13 @@ import sixteenAbril1 from '../../assets/audio/10-Abril/02-04-2016.mp3'
 import sixteenAbril2 from '../../assets/audio/10-Abril/16-04-2016.mp3'
 import sixteenAbril3 from '../../assets/audio/10-Abril/30-04-2016.mp3'
 
+import sixteenMayo1 from '../../assets/audio/11-Mayo/07-05-2016.mp3'
+import sixteenMayo2 from '../../assets/audio/11-Mayo/14-05-2016.mp3'
+import sixteenMayo3 from '../../assets/audio/11-Mayo/21-05-2016.mp3'
+import sixteenMayo4 from '../../assets/audio/11-Mayo/28-05-2016.mp3'
+
+
+
 const data = {
   // ********* 2016 *************************************************
   sixteen: {
@@ -93,6 +100,40 @@ const data = {
         }, {
           audioTitle: "30-04-2016",
           audioFile: sixteenAbril3,
+        }],
+      },
+      // ************** Mayo 2016    
+      mayo: {
+        monthTitle: 'Mayo 2016',
+        audioData: [{
+          audioTitle: "07-05-2016",
+          audioFile: sixteenMayo1
+        }, {
+          audioTitle: "14-05-2016",
+          audioFile: sixteenMayo2
+        }, {
+          audioTitle: "21-05-2016",
+          audioFile: sixteenMayo3,
+        }, {
+          audioTitle: "28-05-2016",
+          audioFile: sixteenMayo4,
+        }],
+      },
+      // ************** Mayo 2016    
+      mayo: {
+        monthTitle: 'Mayo 2016',
+        audioData: [{
+          audioTitle: "07-05-2016",
+          audioFile: sixteenMayo1
+        }, {
+          audioTitle: "14-05-2016",
+          audioFile: sixteenMayo2
+        }, {
+          audioTitle: "21-05-2016",
+          audioFile: sixteenMayo3,
+        }, {
+          audioTitle: "28-05-2016",
+          audioFile: sixteenMayo4,
         }],
       },
 
