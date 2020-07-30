@@ -46,6 +46,15 @@ import sixteenSeptiembre1 from '../../assets/audio/audio2016/2016-09-03/XEDX1010
 import sixteenSeptiembre2 from '../../assets/audio/audio2016/2016-09-17/XEDX1010_13-00.mp3'
 import sixteenSeptiembre3 from '../../assets/audio/audio2016/2016-09-24/XEDX1010_13-00.mp3'
 
+import sixteenOctubre1 from '../../assets/audio/audio2016/2016-10-01/XEDX1010_13-00.mp3'
+import sixteenOctubre2 from '../../assets/audio/audio2016/2016-10-08/XEDX1010_13-00.mp3'
+import sixteenOctubre3 from '../../assets/audio/audio2016/2016-10-29/XEDX1010_13-00.mp3'
+
+import sixteenNoviembre1 from '../../assets/audio/audio2016/2016-11-05/XEDX1010_13-00.mp3'
+import sixteenNoviembre2 from '../../assets/audio/audio2016/2016-11-12/XEDX1010_13-00.mp3'
+import sixteenNoviembre3 from '../../assets/audio/audio2016/2016-11-19/XEDX1010_13-00.mp3'
+import sixteenNoviembre4 from '../../assets/audio/audio2016/2016-11-26/XEDX1010_13-00.mp3'
+
 const data = {
   // ********* 2016 *************************************************
   sixteen: {
@@ -195,6 +204,37 @@ const data = {
         }, {
           audioTitle: "2016-09-24",
           audioFile: sixteenSeptiembre3,
+        }],
+      },
+      // ************** Octubre 2016    
+      octubre: {
+        monthTitle: 'Octubre 2016',
+        audioData: [{
+          audioTitle: "2016-10-01",
+          audioFile: sixteenOctubre1
+        }, {
+          audioTitle: "2016-10-08",
+          audioFile: sixteenOctubre2
+        }, {
+          audioTitle: "2016-10-29",
+          audioFile: sixteenOctubre3,
+        }],
+      },
+      // ************** Noviembre 2016    
+      noviembre: {
+        monthTitle: 'Noviembre 2016',
+        audioData: [{
+          audioTitle: "2016-11-05",
+          audioFile: sixteenNoviembre1
+        }, {
+          audioTitle: "2016-11-12",
+          audioFile: sixteenNoviembre2
+        }, {
+          audioTitle: "2016-11-19",
+          audioFile: sixteenNoviembre3,
+        }, {
+          audioTitle: "2016-11-26",
+          audioFile: sixteenNoviembre4,
         }],
       },
 
