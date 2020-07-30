@@ -12,6 +12,7 @@ import sixteenFebrero4 from '../../assets/audio/08-Febrero/27-02-2016.mp3'
 const data = {
   sixteen: {
     yearTitle: '2016: Elige Mes',
+    year: 'sixteen',
     allMonths: ['enero', 'febrero', 'marzo', 'april', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'],
     monthsData: {
       enero: {
@@ -33,7 +34,8 @@ const data = {
       },
 
       febrero: {
-        id: 'febrero2016',
+        yearTitle: 'febrero2016',
+        year: 'sixteen',
         monthTitle: 'Febrero 2016',
         audioData: [{
           audioTitle: "06-02-2016",

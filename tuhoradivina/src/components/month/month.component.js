@@ -1,8 +1,10 @@
 import React from 'react';
 
-const Month = ({ month }) => {
+const Month = ({ month, handleMonth, year }) => {
   return (
-    <button>
+    <button
+      onClick={() => handleMonth(year, month)}
+    >
       {month.toUpperCase()}
     </button>
   )
