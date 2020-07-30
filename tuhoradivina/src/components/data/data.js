@@ -19,12 +19,16 @@ import fifteenJulio2 from '../../assets/audio/01-Julio/11-07-2015.mp3'
 import fifteenJulio3 from '../../assets/audio/01-Julio/18-07-2015.mp3'
 import fifteenJulio4 from '../../assets/audio/01-Julio/25-07-2015.mp3'
 
+import sixteenAbril1 from '../../assets/audio/10-Abril/02-04-2016.mp3'
+import sixteenAbril2 from '../../assets/audio/10-Abril/16-04-2016.mp3'
+import sixteenAbril3 from '../../assets/audio/10-Abril/30-04-2016.mp3'
+
 const data = {
   // ********* 2016 *************************************************
   sixteen: {
     yearTitle: '2016: Elige Mes',
     year: 'sixteen',
-    allMonths: ['enero', 'febrero', 'marzo', 'april', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'],
+    allMonths: ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'],
     monthsData: {
       // ************** Enero 2016
       enero: {
@@ -77,9 +81,60 @@ const data = {
           audioFile: sixteenMarzo4,
         }],
       },
+      // ************** Abril 2016    
+      abril: {
+        monthTitle: 'Abril 2016',
+        audioData: [{
+          audioTitle: "02-04-2016",
+          audioFile: sixteenAbril1
+        }, {
+          audioTitle: "16-04-2016",
+          audioFile: sixteenAbril2
+        }, {
+          audioTitle: "30-04-2016",
+          audioFile: sixteenAbril3,
+        }],
+      },
 
     } //***** END 2016 monthsData */    
   }, //***** END 2016 sixteen prop */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   // ********* 2015 *************************************************
   fifteen: {
