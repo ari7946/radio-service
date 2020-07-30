@@ -1,41 +1,25 @@
-import React, { useEffect } from 'react';
-import Title from '../title/title.component';
-import Month from '../month/month.component';
+import React from 'react';
+import MonthList from '../month-list/month-list.component';
+import PlayerList from '../player-list/player-list.component';
 import data from '../data/data';
-import ReactAudioPlayer from 'react-audio-player';
 import './main-content.styles.scss'
 
 const MainContent = () => {
+  const { monthTitle } = data;
+  const { allMonths, yearTitle } = data.sixteen;
+  const { audioData } = data.sixteen.monthsData.enero;
+
   return (
     <main>
-      <div className="main-left">
-        <h2>{data.sixteen.yearTitle}</h2>
-        {data.sixteen.months.map(month => (
-          <Month month={month} />
-        ))}
-      </div>
-
-      <div className='main-right'>
-        <h2>{data.sixteen.monthTitle}</h2>
-        {data.sixteen.audioData.map(audio => (
-          <div>
-            <h2>{audio.audioTitle}</h2>
-            {/* <audio 
-              class="audio-player" 
-              id="fourthAudio2014" 
-              controls
-              src={audio.audioPath} 
-              type="audio/mpeg" 
-            /> */}
-            <ReactAudioPlayer 
-              src={audio.audioFile}
-              autoplay
-              controls
-              preload
-            />
-          </div>
-        ))}
-      </div>
+      <MonthList 
+        allMonths={allMonths}
+        yearTitle={yearTitle}
+      />
+      
+      <PlayerList 
+        monthTitle={monthTitle}
+        audioData={audioData}
+      />
 
     </main> 
   )
