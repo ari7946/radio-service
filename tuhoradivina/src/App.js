@@ -16,12 +16,13 @@ function App() {
   const [allMonths, setAllMonths] = useState(initialAllMonths);
   const [audioData, setAudioData] = useState(initialAudioData);
   const [monthTitle, setMonthTitle] = useState(initialMonthTitle);
-   const [year, setYear] = useState(initialYear);
+  const [year, setYear] = useState(initialYear);
 
-  const handleMonth = (year, month) => {
-    const audioData = data[year].monthsData[month]
-    console.log('audioData', audioData);
-
+  const handleMonth = (month) => {
+    const monthData = data[year].monthsData[month];
+    const { monthTitle, audioData } = monthData;
+    setMonthTitle(monthTitle);
+    setAudioData(audioData);
   }
 
   return (

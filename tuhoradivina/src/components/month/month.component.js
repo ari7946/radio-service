@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Month = ({ month, handleMonth, year }) => {
+const Month = ({ month, handleMonth }) => {
   return (
     <button
-      onClick={() => handleMonth(year, month)}
+      onClick={() => handleMonth(month)}
     >
-      {month.toUpperCase()}
+      {month}
     </button>
   )
 }
