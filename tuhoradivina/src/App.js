@@ -29,7 +29,7 @@ function App() {
     const { yearTitle, year, allMonths, monthsData } = data[yearSelected];
 
     // 2016 and 2016 both begin in Janurary, while 2015 begins in July. 
-    // (according to the data available, obviously not on an actual calendar year) 
+    // (according to the data available, obviously not on an actual calendar) 
     const { monthTitle, audioData } = 
       yearSelected === 'fifteen' ? monthsData.julio : monthsData.enero;
 

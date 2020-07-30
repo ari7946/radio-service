@@ -20,11 +20,13 @@ import fifteenJulio3 from '../../assets/audio/01-Julio/18-07-2015.mp3'
 import fifteenJulio4 from '../../assets/audio/01-Julio/25-07-2015.mp3'
 
 const data = {
+  // ********* 2016 *************************************************
   sixteen: {
     yearTitle: '2016: Elige Mes',
     year: 'sixteen',
     allMonths: ['enero', 'febrero', 'marzo', 'april', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'],
     monthsData: {
+      // ************** Enero 2016
       enero: {
         monthTitle: 'Enero 2016',
         audioData: [{
@@ -41,7 +43,7 @@ const data = {
           audioFile: sixteenEnero4
         }],
       },
-
+      // ************** Febrero 2016
       febrero: {
         monthTitle: 'Febrero 2016',
         audioData: [{
@@ -58,7 +60,7 @@ const data = {
           audioFile: sixteenFebrero4,
         }],
       },
-
+      // ************** Marzo 2016    
       marzo: {
         monthTitle: 'Marzo 2016',
         audioData: [{
@@ -76,14 +78,16 @@ const data = {
         }],
       },
 
-    }    
-  },
+    } //***** END 2016 monthsData */    
+  }, //***** END 2016 sixteen prop */ 
 
+  // ********* 2015 *************************************************
   fifteen: {
     yearTitle: '2015: Elige Mes',
     year: 'fifteen',
     allMonths: ['julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'],
     monthsData: {
+      // ************** Julio 2015
       julio: {
         monthTitle: 'Julio 2015',
         audioData: [{
@@ -101,9 +105,8 @@ const data = {
         }]
       }
     
-
-    }
-  }
+    } //***** END 2015 monthsData */  
+  }, //***** END 2015 fifteen prop */  
 }
 
 export default data;
