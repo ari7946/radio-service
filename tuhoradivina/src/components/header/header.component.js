@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.styles.scss';
 
-const Header = () => {
+const Header = ({ handleYear }) => {
   return (
     <header>
       <h1 className="header-title">Radio Tu Hora Divina</h1>

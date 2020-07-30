@@ -14,6 +14,11 @@ import sixteenMarzo2 from '../../assets/audio/09-Marzo/12-03-2016.mp3'
 import sixteenMarzo3 from '../../assets/audio/09-Marzo/19-03-2016.mp3'
 import sixteenMarzo4 from '../../assets/audio/09-Marzo/26-03-2016.mp3'
 
+import fifteenJulio1 from '../../assets/audio/01-Julio/04-07-2015.mp3'
+import fifteenJulio2 from '../../assets/audio/01-Julio/11-07-2015.mp3'
+import fifteenJulio3 from '../../assets/audio/01-Julio/18-07-2015.mp3'
+import fifteenJulio4 from '../../assets/audio/01-Julio/25-07-2015.mp3'
+
 const data = {
   sixteen: {
     yearTitle: '2016: Elige Mes',
@@ -72,6 +77,32 @@ const data = {
       },
 
     }    
+  },
+
+  fifteen: {
+    yearTitle: '2015: Elige Mes',
+    year: 'fifteen',
+    allMonths: ['julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'],
+    monthsData: {
+      julio: {
+        monthTitle: 'Julio 2015',
+        audioData: [{
+          audioTitle: "04-07-2015",
+          audioFile: fifteenJulio1,
+        }, {
+          audioTitle: "11-07-2015",
+          audioFile: fifteenJulio2,
+        }, {
+          audioTitle: "18-07-2015",
+          audioFile: fifteenJulio3,
+        }, {
+          audioTitle: "25-07-2015",
+          audioFile: fifteenJulio4,
+        }]
+      }
+    
+
+    }
   }
 }
 
