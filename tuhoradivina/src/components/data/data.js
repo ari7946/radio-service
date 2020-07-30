@@ -28,7 +28,23 @@ import sixteenMayo2 from '../../assets/audio/11-Mayo/14-05-2016.mp3'
 import sixteenMayo3 from '../../assets/audio/11-Mayo/21-05-2016.mp3'
 import sixteenMayo4 from '../../assets/audio/11-Mayo/28-05-2016.mp3'
 
+import sixteenJunio1 from '../../assets/audio/12-Junio/04-06-2016.mp3'
+import sixteenJunio2 from '../../assets/audio/12-Junio/11-06-2016.mp3'
+import sixteenJunio3 from '../../assets/audio/12-Junio/18-06-2016.mp3'
+import sixteenJunio4 from '../../assets/audio/12-Junio/25-06-2016.mp3'
 
+import sixteenJulio1 from '../../assets/audio/audio2016/2016-07-02/XEDX1010_13-00.mp3'
+import sixteenJulio2 from '../../assets/audio/audio2016/2016-07-09/XEDX1010_13-00.mp3'
+import sixteenJulio3 from '../../assets/audio/audio2016/2016-07-16/XEDX1010_13-00.mp3'
+import sixteenJulio4 from '../../assets/audio/audio2016/2016-07-23/XEDX1010_13-00.mp3'
+
+import sixteenAgosto1 from '../../assets/audio/audio2016/2016-08-13/XEDX1010_13-00.mp3'
+import sixteenAgosto2 from '../../assets/audio/audio2016/2016-08-20/XEDX1010_13-00.mp3'
+import sixteenAgosto3 from '../../assets/audio/audio2016/2016-08-27/XEDX1010_13-00.mp3'
+
+import sixteenSeptiembre1 from '../../assets/audio/audio2016/2016-09-03/XEDX1010_13-00.mp3'
+import sixteenSeptiembre2 from '../../assets/audio/audio2016/2016-09-17/XEDX1010_13-00.mp3'
+import sixteenSeptiembre3 from '../../assets/audio/audio2016/2016-09-24/XEDX1010_13-00.mp3'
 
 const data = {
   // ********* 2016 *************************************************
@@ -119,21 +135,66 @@ const data = {
           audioFile: sixteenMayo4,
         }],
       },
-      // ************** Mayo 2016    
-      mayo: {
-        monthTitle: 'Mayo 2016',
+      // ************** Junio 2016    
+      junio: {
+        monthTitle: 'Junio 2016',
         audioData: [{
-          audioTitle: "07-05-2016",
-          audioFile: sixteenMayo1
+          audioTitle: "04-06-2016",
+          audioFile: sixteenJunio1
         }, {
-          audioTitle: "14-05-2016",
-          audioFile: sixteenMayo2
+          audioTitle: "11-06-2016",
+          audioFile: sixteenJunio2
         }, {
-          audioTitle: "21-05-2016",
-          audioFile: sixteenMayo3,
+          audioTitle: "18-06-2016",
+          audioFile: sixteenJunio3,
         }, {
-          audioTitle: "28-05-2016",
-          audioFile: sixteenMayo4,
+          audioTitle: "25-06-2016",
+          audioFile: sixteenJunio4,
+        }],
+      },
+      // ************** Julio 2016    
+      julio: {
+        monthTitle: 'Julio 2016',
+        audioData: [{
+          audioTitle: "2016-07-02",
+          audioFile: sixteenJulio1
+        }, {
+          audioTitle: "2016-07-09",
+          audioFile: sixteenJulio2
+        }, {
+          audioTitle: "2016-07-16",
+          audioFile: sixteenJulio3,
+        }, {
+          audioTitle: "2016-07-23",
+          audioFile: sixteenJulio4,
+        }],
+      },
+      // ************** Agosto 2016    
+      agosto: {
+        monthTitle: 'Agosto 2016',
+        audioData: [{
+          audioTitle: "2016-08-13",
+          audioFile: sixteenAgosto1
+        }, {
+          audioTitle: "2016-08-20",
+          audioFile: sixteenAgosto2
+        }, {
+          audioTitle: "2016-08-27",
+          audioFile: sixteenAgosto3,
+        }],
+      },
+      // ************** Septiembre 2016    
+      septiembre: {
+        monthTitle: 'Septiembre 2016',
+        audioData: [{
+          audioTitle: "2016-09-03",
+          audioFile: sixteenSeptiembre1
+        }, {
+          audioTitle: "2016-09-17",
+          audioFile: sixteenSeptiembre2
+        }, {
+          audioTitle: "2016-09-24",
+          audioFile: sixteenSeptiembre3,
         }],
       },
 
