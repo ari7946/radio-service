@@ -112,6 +112,26 @@ import fourteenJunio1 from '../../assets/audio/audio2014/2014-06-07/XEDX1010_13-
 
 import fourteenJulio1 from '../../assets/audio/audio2014/2014-07-19/XEDX1010_13-00.mp3'
 
+import fourteenAgosto1 from '../../assets/audio/audio2014/2014-08-02/XEDX1010_13-00.mp3'
+import fourteenAgosto2 from '../../assets/audio/audio2014/2014-08-09/XEDX1010_13-00.mp3'
+import fourteenAgosto3 from '../../assets/audio/audio2014/2014-08-16/XEDX1010_13-00.mp3'
+import fourteenAgosto4 from '../../assets/audio/audio2014/2014-08-23/XEDX1010_13-00.mp3'
+
+import fourteenSeptiembre1 from '../../assets/audio/audio2014/2014-09-06/XEDX1010_13-00.mp3'
+import fourteenSeptiembre2 from '../../assets/audio/audio2014/2014-09-20/XEDX1010_13-00.mp3'
+
+import fourteenOctubre1 from '../../assets/audio/audio2014/2014-10-04/XEDX1010_13-00.mp3'
+import fourteenOctubre2 from '../../assets/audio/audio2014/2014-10-11/XEDX1010_13-00.mp3'
+import fourteenOctubre3 from '../../assets/audio/audio2014/2014-10-18/XEDX1010_13-00.mp3'
+import fourteenOctubre4 from '../../assets/audio/audio2014/2014-10-25/XEDX1010_13-00.mp3'
+
+import fourteenNoviembre1 from '../../assets/audio/audio2014/2014-11-01/XEDX1010_13-00.mp3'
+import fourteenNoviembre2 from '../../assets/audio/audio2014/2014-11-08/XEDX1010_13-00.mp3'
+import fourteenNoviembre3 from '../../assets/audio/audio2014/2014-11-15/XEDX1010_13-00.mp3'
+import fourteenNoviembre4 from '../../assets/audio/audio2014/2014-11-22/XEDX1010_13-00.mp3'
+
+import fourteenDiciembre1 from '../../assets/audio/audio2014/2014-12-06/XEDX1010_13-00.mp3'
+
 const data = {
   // ********* 2016 *************************************************
   sixteen: {
@@ -414,7 +434,7 @@ const data = {
   fourteen: {  
     yearTitle: '2014: Elige Mes',
     year: 'fourteen',
-    allMonths: ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre' ],
+    allMonths: ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'],
     monthsData: {
       // ************** Enero 2014
       enero: {
@@ -517,7 +537,76 @@ const data = {
           audioFile: fourteenJulio1,
         }]
       },
-
+      // ************** Agosto 2014
+      agosto: {
+        monthTitle: 'Agosto 2014',
+        audioData: [{
+          audioTitle: "2014-08-02",
+          audioFile: fourteenAgosto1,
+        }, {
+          audioTitle: "2014-08-09",
+          audioFile: fourteenAgosto2,
+        }, {
+          audioTitle: "2014-08-16",
+          audioFile: fourteenAgosto3,
+        }, {
+          audioTitle: "2014-08-23",
+          audioFile: fourteenAgosto4,
+        }]
+      },
+      // ************** Septiembre 2014
+      septiembre: {
+        monthTitle: 'Septiembre 2014',
+        audioData: [{
+          audioTitle: "2014-09-06",
+          audioFile: fourteenSeptiembre1,
+        }, {
+          audioTitle: "2014-09-20",
+          audioFile: fourteenSeptiembre2,
+        }]
+      },
+      // ************** Octubre 2014
+      octubre: {
+        monthTitle: 'Octubre 2014',
+        audioData: [{
+          audioTitle: "2014-10-04",
+          audioFile: fourteenOctubre1,
+        }, {
+          audioTitle: "2014-10-11",
+          audioFile: fourteenOctubre2,
+        }, {
+          audioTitle: "2014-10-18",
+          audioFile: fourteenOctubre3,
+        }, {
+          audioTitle: "2014-10-25",
+          audioFile: fourteenOctubre4,
+        }]
+      },
+      // ************** Noviembre 2014
+      noviembre: {
+        monthTitle: 'Noviembre 2014',
+        audioData: [{
+          audioTitle: "2014-11-01",
+          audioFile: fourteenNoviembre1,
+        }, {
+          audioTitle: "2014-11-08",
+          audioFile: fourteenNoviembre2,
+        }, {
+          audioTitle: "2014-11-15",
+          audioFile: fourteenNoviembre3,
+        }, {
+          audioTitle: "2014-11-22",
+          audioFile: fourteenNoviembre4,
+        }]
+      },
+      // ************** Diciembre 2014
+      diciembre: {
+        monthTitle: 'Diciembre 2014',
+        audioData: [{
+          audioTitle: "2014-12-06",
+          audioFile: fourteenDiciembre1,
+        }]
+      },
 
 
 
