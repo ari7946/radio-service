@@ -1,3 +1,4 @@
+// *********** sixteen
 import sixteenEnero1 from '../../assets/audio/07-Enero/02-01-2016.mp3'
 import sixteenEnero2 from '../../assets/audio/07-Enero/09-01-2016.mp3'
 import sixteenEnero3 from '../../assets/audio/07-Enero/16-01-2016.mp3'
@@ -80,6 +81,36 @@ import fifteenDiciembre1 from '../../assets/audio/06-Diciembre/05-12-2015.mp3'
 import fifteenDiciembre2 from '../../assets/audio/06-Diciembre/12-12-2015.mp3'
 import fifteenDiciembre3 from '../../assets/audio/06-Diciembre/19-12-2015.mp3'
 import fifteenDiciembre4 from '../../assets/audio/06-Diciembre/26-12-2015.mp3'
+
+// fourteen
+import fourteenEnero1 from '../../assets/audio/audio2014/2014-01-04/XEDX1010_13-00.mp3'
+import fourteenEnero2 from '../../assets/audio/audio2014/2014-01-11/XEDX1010_13-00.mp3'
+import fourteenEnero3 from '../../assets/audio/audio2014/2014-01-18/XEDX1010_13-00.mp3'
+import fourteenEnero4 from '../../assets/audio/audio2014/2014-01-25/XEDX1010_13-00.mp3'
+
+import fourteenFebrero1 from '../../assets/audio/audio2014/2014-02-01/XEDX1010_13-00.mp3'
+import fourteenFebrero2 from '../../assets/audio/audio2014/2014-02-08/XEDX1010_13-00.mp3'
+import fourteenFebrero3 from '../../assets/audio/audio2014/2014-02-15/XEDX1010_13-00.mp3'
+import fourteenFebrero4 from '../../assets/audio/audio2014/2014-02-22/XEDX1010_13-00.mp3'
+
+import fourteenMarzo1 from '../../assets/audio/audio2014/2014-03-01/XEDX1010_13-00.mp3'
+import fourteenMarzo2 from '../../assets/audio/audio2014/2014-03-08/XEDX1010_13-00.mp3'
+import fourteenMarzo3 from '../../assets/audio/audio2014/2014-03-15/XEDX1010_13-00.mp3'
+import fourteenMarzo4 from '../../assets/audio/audio2014/2014-03-22/XEDX1010_13-00.mp3'
+
+import fourteenAbril1 from '../../assets/audio/audio2014/2014-04-05/XEDX1010_13-00.mp3'
+import fourteenAbril2 from '../../assets/audio/audio2014/2014-04-12/XEDX1010_13-00.mp3'
+import fourteenAbril3 from '../../assets/audio/audio2014/2014-04-19/XEDX1010_13-00.mp3'
+import fourteenAbril4 from '../../assets/audio/audio2014/2014-04-26/XEDX1010_13-00.mp3'
+
+import fourteenMayo1 from '../../assets/audio/audio2014/2014-05-10/XEDX1010_13-00.mp3'
+import fourteenMayo2 from '../../assets/audio/audio2014/2014-05-17/XEDX1010_13-00.mp3'
+import fourteenMayo3 from '../../assets/audio/audio2014/2014-05-24/XEDX1010_13-00.mp3'
+import fourteenMayo4 from '../../assets/audio/audio2014/2014-05-31/XEDX1010_13-00.mp3'
+
+import fourteenJunio1 from '../../assets/audio/audio2014/2014-06-07/XEDX1010_13-00.mp3'
+
+import fourteenJulio1 from '../../assets/audio/audio2014/2014-07-19/XEDX1010_13-00.mp3'
 
 const data = {
   // ********* 2016 *************************************************
@@ -390,18 +421,107 @@ const data = {
         monthTitle: 'Enero 2014',
         audioData: [{
           audioTitle: "2014-01-04",
-          audioFile: fifteenDiciembre1,
+          audioFile: fourteenEnero1,
         }, {
           audioTitle: "2014-01-11",
-          audioFile: fifteenDiciembre2,
+          audioFile: fourteenEnero2,
         }, {
           audioTitle: "2014-01-18",
-          audioFile: fifteenDiciembre3,
+          audioFile: fourteenEnero3,
         }, {
           audioTitle: "2014-01-25",
-          audioFile: fifteenDiciembre4,
+          audioFile: fourteenEnero4,
         }]
       },
+      // ************** Febrero 2014
+      febrero: {
+        monthTitle: 'Febrero 2014',
+        audioData: [{
+          audioTitle: "2014-02-01",
+          audioFile: fourteenFebrero1,
+        }, {
+          audioTitle: "2014-02-08",
+          audioFile: fourteenFebrero2,
+        }, {
+          audioTitle: "2014-02-15",
+          audioFile: fourteenFebrero3,
+        }, {
+          audioTitle: "2014-02-22",
+          audioFile: fourteenFebrero4,
+        }]
+      },
+      // ************** Marzo 2014
+      marzo: {
+        monthTitle: 'Marzo 2014',
+        audioData: [{
+          audioTitle: "2014-03-01",
+          audioFile: fourteenMarzo1,
+        }, {
+          audioTitle: "2014-03-08",
+          audioFile: fourteenMarzo2,
+        }, {
+          audioTitle: "2014-03-15",
+          audioFile: fourteenMarzo3,
+        }, {
+          audioTitle: "2014-03-22",
+          audioFile: fourteenMarzo4,
+        }]
+      },
+      // ************** Abril 2014
+      abril: {
+        monthTitle: 'Abril 2014',
+        audioData: [{
+          audioTitle: "2014-04-05",
+          audioFile: fourteenAbril1,
+        }, {
+          audioTitle: "2014-04-12",
+          audioFile: fourteenAbril2,
+        }, {
+          audioTitle: "2014-04-19",
+          audioFile: fourteenAbril3,
+        }, {
+          audioTitle: "2014-04-26",
+          audioFile: fourteenAbril4,
+        }]
+      },
+      // ************** Mayo 2014
+      mayo: {
+        monthTitle: 'Mayo 2014',
+        audioData: [{
+          audioTitle: "2014-05-10",
+          audioFile: fourteenMayo1,
+        }, {
+          audioTitle: "2014-05-17",
+          audioFile: fourteenMayo2,
+        }, {
+          audioTitle: "2014-05-24",
+          audioFile: fourteenMayo3,
+        }, {
+          audioTitle: "2014-05-31",
+          audioFile: fourteenMayo4,
+        }]
+      },
+      // ************** Junio 2014
+      junio: {
+        monthTitle: 'Junio 2014',
+        audioData: [{
+          audioTitle: "2014-06-07",
+          audioFile: fourteenJunio1,
+        }]
+      },
+      // ************** Julio 2014
+      julio: {
+        monthTitle: 'Julio 2014',
+        audioData: [{
+          audioTitle: "2014-07-19",
+          audioFile: fourteenJulio1,
+        }]
+      },
+
+
+
+
+
     }
   }
 }
