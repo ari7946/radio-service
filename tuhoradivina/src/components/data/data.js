@@ -608,11 +608,8 @@ const data = {
         }]
       },
 
-
-
-
     }
-  }
+  } //***** END 2014 fifteen prop */  
 }
 
 export default data;
