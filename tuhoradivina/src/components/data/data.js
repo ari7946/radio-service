@@ -14,11 +14,6 @@ import sixteenMarzo2 from '../../assets/audio/09-Marzo/12-03-2016.mp3'
 import sixteenMarzo3 from '../../assets/audio/09-Marzo/19-03-2016.mp3'
 import sixteenMarzo4 from '../../assets/audio/09-Marzo/26-03-2016.mp3'
 
-import fifteenJulio1 from '../../assets/audio/01-Julio/04-07-2015.mp3'
-import fifteenJulio2 from '../../assets/audio/01-Julio/11-07-2015.mp3'
-import fifteenJulio3 from '../../assets/audio/01-Julio/18-07-2015.mp3'
-import fifteenJulio4 from '../../assets/audio/01-Julio/25-07-2015.mp3'
-
 import sixteenAbril1 from '../../assets/audio/10-Abril/02-04-2016.mp3'
 import sixteenAbril2 from '../../assets/audio/10-Abril/16-04-2016.mp3'
 import sixteenAbril3 from '../../assets/audio/10-Abril/30-04-2016.mp3'
@@ -55,12 +50,43 @@ import sixteenNoviembre2 from '../../assets/audio/audio2016/2016-11-12/XEDX1010_
 import sixteenNoviembre3 from '../../assets/audio/audio2016/2016-11-19/XEDX1010_13-00.mp3'
 import sixteenNoviembre4 from '../../assets/audio/audio2016/2016-11-26/XEDX1010_13-00.mp3'
 
+// *********** fifteen
+import fifteenJulio1 from '../../assets/audio/01-Julio/04-07-2015.mp3'
+import fifteenJulio2 from '../../assets/audio/01-Julio/11-07-2015.mp3'
+import fifteenJulio3 from '../../assets/audio/01-Julio/18-07-2015.mp3'
+import fifteenJulio4 from '../../assets/audio/01-Julio/25-07-2015.mp3'
+
+import fifteenAgosto1 from '../../assets/audio/02-Agosto/01-08-2015.mp3'
+import fifteenAgosto2 from '../../assets/audio/02-Agosto/08-08-2015.mp3'
+import fifteenAgosto3 from '../../assets/audio/02-Agosto/22-08-2015.mp3'
+import fifteenAgosto4 from '../../assets/audio/02-Agosto/29-08-2015.mp3'
+
+import fifteenSeptiembre1 from '../../assets/audio/03-Septiembre/05-09-2015.mp3'
+import fifteenSeptiembre2 from '../../assets/audio/03-Septiembre/12-09-2015.mp3'
+import fifteenSeptiembre3 from '../../assets/audio/03-Septiembre/19-09-2015.mp3'
+import fifteenSeptiembre4 from '../../assets/audio/03-Septiembre/26-09-2015.mp3'
+
+import fifteenOctubre1 from '../../assets/audio/04-Octubre/03-10-2015.mp3'
+import fifteenOctubre2 from '../../assets/audio/04-Octubre/10-10-2015.mp3'
+import fifteenOctubre3 from '../../assets/audio/04-Octubre/24-10-2015.mp3'
+import fifteenOctubre4 from '../../assets/audio/04-Octubre/31-10-2015.mp3'
+
+import fifteenNoviembre1 from '../../assets/audio/05-Noviembre/07-11-2015.mp3'
+import fifteenNoviembre2 from '../../assets/audio/05-Noviembre/14-11-2015.mp3'
+import fifteenNoviembre3 from '../../assets/audio/05-Noviembre/21-11-2015.mp3'
+import fifteenNoviembre4 from '../../assets/audio/05-Noviembre/28-11-2015.mp3'
+
+import fifteenDiciembre1 from '../../assets/audio/06-Diciembre/05-12-2015.mp3'
+import fifteenDiciembre2 from '../../assets/audio/06-Diciembre/12-12-2015.mp3'
+import fifteenDiciembre3 from '../../assets/audio/06-Diciembre/19-12-2015.mp3'
+import fifteenDiciembre4 from '../../assets/audio/06-Diciembre/26-12-2015.mp3'
+
 const data = {
   // ********* 2016 *************************************************
   sixteen: {
     yearTitle: '2016: Elige Mes',
     year: 'sixteen',
-    allMonths: ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'],
+    allMonths: ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre' ],
     monthsData: {
       // ************** Enero 2016
       enero: {
@@ -241,43 +267,6 @@ const data = {
     } //***** END 2016 monthsData */    
   }, //***** END 2016 sixteen prop */ 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   // ********* 2015 *************************************************
   fifteen: {
     yearTitle: '2015: Elige Mes',
@@ -300,10 +289,121 @@ const data = {
           audioTitle: "25-07-2015",
           audioFile: fifteenJulio4,
         }]
-      }
-    
+      },
+      // ************** Agosto 2015
+      agosto: {
+        monthTitle: 'Agosto 2015',
+        audioData: [{
+          audioTitle: "01-08-2015",
+          audioFile: fifteenAgosto1,
+        }, {
+          audioTitle: "08-08-2015",
+          audioFile: fifteenAgosto2,
+        }, {
+          audioTitle: "22-08-2015",
+          audioFile: fifteenAgosto3,
+        }, {
+          audioTitle: "29-08-2015",
+          audioFile: fifteenAgosto4,
+        }]
+      },
+      // ************** Septiembre 2015
+      septiembre: {
+        monthTitle: 'Septiembre 2015',
+        audioData: [{
+          audioTitle: "05-09-2015",
+          audioFile: fifteenSeptiembre1,
+        }, {
+          audioTitle: "12-09-2015",
+          audioFile: fifteenSeptiembre2,
+        }, {
+          audioTitle: "19-09-2015",
+          audioFile: fifteenSeptiembre3,
+        }, {
+          audioTitle: "26-09-2015",
+          audioFile: fifteenSeptiembre4,
+        }]
+      },
+      // ************** Octubre 2015
+      octubre: {
+        monthTitle: 'Octubre 2015',
+        audioData: [{
+          audioTitle: "03-10-2015",
+          audioFile: fifteenOctubre1,
+        }, {
+          audioTitle: "10-10-2015",
+          audioFile: fifteenOctubre2,
+        }, {
+          audioTitle: "24-10-2015",
+          audioFile: fifteenOctubre3,
+        }, {
+          audioTitle: "31-10-2015",
+          audioFile: fifteenOctubre4,
+        }]
+      },
+      // ************** Noviembre 2015
+      noviembre: {
+        monthTitle: 'Noviembre 2015',
+        audioData: [{
+          audioTitle: "07-11-2015",
+          audioFile: fifteenNoviembre1,
+        }, {
+          audioTitle: "14-11-2015",
+          audioFile: fifteenNoviembre2,
+        }, {
+          audioTitle: "21-11-2015",
+          audioFile: fifteenNoviembre3,
+        }, {
+          audioTitle: "28-11-2015",
+          audioFile: fifteenNoviembre4,
+        }]
+      },
+      // ************** Diciembre 2015
+      diciembre: {
+        monthTitle: 'Diciembre 2015',
+        audioData: [{
+          audioTitle: "05-12-2015",
+          audioFile: fifteenDiciembre1,
+        }, {
+          audioTitle: "12-12-2015",
+          audioFile: fifteenDiciembre2,
+        }, {
+          audioTitle: "19-12-2015",
+          audioFile: fifteenDiciembre3,
+        }, {
+          audioTitle: "26-12-2015",
+          audioFile: fifteenDiciembre4,
+        }]
+      },
+      
     } //***** END 2015 monthsData */  
   }, //***** END 2015 fifteen prop */  
+
+  // ********* 2014 *************************************************
+  fourteen: {  
+    yearTitle: '2014: Elige Mes',
+    year: 'fourteen',
+    allMonths: ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre' ],
+    monthsData: {
+      // ************** Enero 2014
+      enero: {
+        monthTitle: 'Enero 2014',
+        audioData: [{
+          audioTitle: "2014-01-04",
+          audioFile: fifteenDiciembre1,
+        }, {
+          audioTitle: "2014-01-11",
+          audioFile: fifteenDiciembre2,
+        }, {
+          audioTitle: "2014-01-18",
+          audioFile: fifteenDiciembre3,
+        }, {
+          audioTitle: "2014-01-25",
+          audioFile: fifteenDiciembre4,
+        }]
+      },
+    }
+  }
 }
 
 export default data;
