@@ -200,7 +200,7 @@ nav ul li a:hover {
 }
 
 /********* Contact Form */
-form {
+/* form {
   width: 40%;
   padding: 1em auto 1em auto;
   margin: 25px;
@@ -250,11 +250,11 @@ input[type="submit"] {
     clear: both; */
 		display: none;
   }
-  #header {
+  /* #header {
     padding-bottom: 0;
     margin-bottom: 0;
   }
-}
+}  */
 
 /* @media (max-width: 600px) {
 	#header {
