@@ -135,7 +135,7 @@ import fourteenDiciembre1 from '../../assets/audio/audio2014/2014-12-06/XEDX1010
 const data = {
   // ********* 2016 *************************************************
   sixteen: {
-    yearTitle: '2016: Elige Mes',
+    yearTitle: '2016',
     year: 'sixteen',
     allMonths: ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre' ],
     monthsData: {
@@ -320,7 +320,7 @@ const data = {
 
   // ********* 2015 *************************************************
   fifteen: {
-    yearTitle: '2015: Elige Mes',
+    yearTitle: '2015',
     year: 'fifteen',
     allMonths: ['julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'],
     monthsData: {
@@ -432,7 +432,7 @@ const data = {
 
   // ********* 2014 *************************************************
   fourteen: {  
-    yearTitle: '2014: Elige Mes',
+    yearTitle: '2014',
     year: 'fourteen',
     allMonths: ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'],
     monthsData: {

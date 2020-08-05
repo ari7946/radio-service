@@ -19,7 +19,6 @@ const MainContent = ({ allMonths, yearTitle, audioData, monthTitle, handleMonth,
         monthTitle={monthTitle}
         audioData={audioData}
       />
-
     </main> 
   )
 }
