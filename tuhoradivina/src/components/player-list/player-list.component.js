@@ -10,6 +10,7 @@ const PlayerList = ({ monthTitle, audioData }) => {
         <div>
           <h2 className="audio-title">{audio.audioTitle}</h2>
           <ReactAudioPlayer 
+            className="audio-player"
             src={audio.audioFile}
             autoplay
             controls

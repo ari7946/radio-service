@@ -1,6 +1,30 @@
 .player-wrapper {
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1800px;
+  @media all and (max-width: 1200px) {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  @media all and (max-width: 600px) {
+    margin-top: 2rem;
+  }
+
+  .audio-player {
+    margin: 0 .5rem;
+    padding: 0 .3rem;
+
+    @media all and (max-width: 1200px) {
+      margin: .2rem .2rem;
+      padding: .5rem ;
+    }
+    @media all and (max-width: 600px) {
+      margin: .2rem .2rem;
+      padding: .5rem ;
+    }
+  }
 
   .audio-title {
     color: black;
@@ -9,10 +33,21 @@
     font-weight: 400;
     letter-spacing: 3px;
     margin-bottom: .3rem;
-
-    // &:first-child {
-    //   margin-top: 0;
-    // }
+    @media all and (max-width: 800px) {
+      margin-top: .2rem;
+      margin-bottom: .2rem;
+      padding-bottom: .2rem ;
+      letter-spacing: 3px;
+    }
+    @media all and (max-width: 600px) {
+      margin-top: .4rem;
+      padding-top: .4rem ;
+      letter-spacing: 0;
+    }    
+    @media all and (max-width: 1200px) {
+      &:first-child {
+        padding-top: -.5rem;
+      }
+    }
   }
-
 }

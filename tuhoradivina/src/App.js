@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Navbar from './components/nav/nav.component';
 import Header from './components/header/header.component';
 import MainContent from './components/main-content/main-content.component';
-import './App.css';
+import './App.scss';
 import data from './components/data/data';
 import { Router, Switch, Route } from 'react-router-dom';
 

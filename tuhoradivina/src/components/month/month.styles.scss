@@ -15,4 +15,11 @@
     color: white;
     background-color: rgba(0,0,0,.5); 
   }
+
+  @media all and (max-width: 1200px) {
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: .3rem .1rem;
+    margin: .5rem .4rem;
+  }
 }
