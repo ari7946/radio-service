@@ -7,8 +7,20 @@ header {
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-    height: auto;
+    height: 30rem;
     width: 100%;
+
+    @media all and (max-width: 1200px) {
+      height: 25rem;
+    }
+
+    @media all and (max-width: 800px) {
+      height: 20rem;
+    }
+
+    @media all and (max-width: 600px) {
+      height: 15rem;
+    }
 
   .header-title {
     text-align: center;

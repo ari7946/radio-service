@@ -1,11 +1,18 @@
 .player-wrapper {
-  
+  display: flex;
+  justify-content: space-between;
+
   .audio-title {
     color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: .3rem;
 
-    &:first-child {
-      margin-top: 0;
-    }
+    // &:first-child {
+    //   margin-top: 0;
+    // }
   }
 
 }

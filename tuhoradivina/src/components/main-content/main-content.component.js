@@ -12,13 +12,7 @@ const MainContent = ({ allMonths, yearTitle, audioData, monthTitle, handleMonth,
     year === "sixteen" || year === 'fourteen' ? allMonths.slice(6) : null;
   console.log('second', firstHalf)
   return (
-    <main>
       <div className="main-wrapper">
-
-        <PlayerList 
-          monthTitle={monthTitle}
-          audioData={audioData}
-        />
 
         {firstHalf.length && (
           <>
@@ -40,8 +34,12 @@ const MainContent = ({ allMonths, yearTitle, audioData, monthTitle, handleMonth,
           />
         )}
 
+        <PlayerList 
+          monthTitle={monthTitle}
+          audioData={audioData}
+        />
+
       </div>
-    </main> 
   )
 }
 

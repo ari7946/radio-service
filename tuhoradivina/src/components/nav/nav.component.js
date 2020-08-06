@@ -1,29 +1,45 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './nav.styles.scss';
 
 const NavBar = ({ handleYear }) => {
+  const [active, setActive] = useState('sixteen');
+
   return (
     <nav className="main-menu">
       <ul>
-        <li>
-          <a 
-            href="#"
-            onClick={() => handleYear('sixteen')}
-          >2016</a>
+        <li
+          onClick={() => {
+            handleYear('sixteen')
+            setActive('sixteen')
+          }}
+          className={`
+            ${active === 'sixteen' ? 'active-menu' : null}
+          `}
+        >
+          <a href="#">2016</a>
         </li>
 
-        <li>
-          <a 
-            href="#"
-            onClick={() => handleYear('fifteen')}
-          >2015</a>
+        <li
+          onClick={() => {
+            handleYear('fifteen')
+            setActive('fifteen')
+          }}
+          className={`
+            ${active === 'fifteen' ? 'active-menu' : null}
+          `}
+        >
+          <a href="#">2015</a>
         </li>
 
-        <li>
-          <a 
-            href="#"
-            onClick={() => handleYear('fourteen')}
-          >2014</a>
+        <li
+          onClick={() => {
+            handleYear('fourteen')
+            setActive('fourteen')
+          }}
+          className={`
+            ${active === 'fourteen' ? 'active-menu' : null}
+          `}>
+          <a href="#">2014</a>
         </li>
       </ul>
     </nav>

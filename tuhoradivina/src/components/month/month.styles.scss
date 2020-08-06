@@ -1,18 +1,18 @@
 .month-button {
   transition-duration: 0.4s;
-  color: white;
+  color: black;
   text-transform: capitalize;
   letter-spacing: 3px;
   border: 1px solid white;
   font-size: 20px;
   padding: .3rem .3rem;
   margin: 1rem .5rem;
-  min-width: 13rem;
+  min-width: 10rem;
   cursor: pointer;
-  background-color: rgba(0, 0, 0, .6);
+  // background-color: rgba(0, 0, 0, .2);
 
   &:hover {
     color: white;
-    background-color: rgba(0,0,0,.9); /* Green */
+    background-color: rgba(0,0,0,.5); 
   }
 }

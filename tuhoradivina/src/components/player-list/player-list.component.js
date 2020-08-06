@@ -7,7 +7,7 @@ const PlayerList = ({ monthTitle, audioData }) => {
     <div className='player-wrapper'>  
       {/* <h2>{monthTitle}</h2> */}
       {audioData.map(audio => (
-        <Fragment>
+        <div>
           <h2 className="audio-title">{audio.audioTitle}</h2>
           <ReactAudioPlayer 
             src={audio.audioFile}
@@ -15,7 +15,7 @@ const PlayerList = ({ monthTitle, audioData }) => {
             controls
             preload
           />
-        </Fragment>
+        </div>
       ))}
     </div>
   )
