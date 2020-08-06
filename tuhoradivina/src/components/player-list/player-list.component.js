@@ -1,5 +1,6 @@
 import React, {Fragment} from 'react';
 import ReactAudioPlayer from 'react-audio-player';
+import './player-list.styles.scss';
 
 const PlayerList = ({ monthTitle, audioData }) => {
   return (

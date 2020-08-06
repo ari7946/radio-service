@@ -2,4 +2,13 @@ main {
   margin-top: 5em;
   display: flex;
   justify-content: space-around;
+
+  .archive-container {
+    flex: 3 0 45em;
+  }
+
+  .archive-month-player-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }

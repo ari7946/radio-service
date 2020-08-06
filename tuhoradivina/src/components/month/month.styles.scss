@@ -1,13 +1,15 @@
 .month-button {
   transition-duration: 0.4s;
+  color: white;
   text-transform: capitalize;
   letter-spacing: 3px;
-  border: none;
+  border: 1px solid white;
   font-size: 20px;
-  padding: .3em .3em;
-  margin: .2em;
-  opacity: 70%;
+  padding: .3rem .3rem;
+  margin: .4rem .5rem;
+  min-width: 13rem;
   cursor: pointer;
+  background-color: inherit;
 
   &:hover {
     color: white;

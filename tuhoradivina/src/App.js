@@ -4,6 +4,7 @@ import Header from './components/header/header.component';
 import MainContent from './components/main-content/main-content.component';
 import './App.css';
 import data from './components/data/data';
+import { Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   const initialAudioData = data.sixteen.monthsData.enero.audioData;
@@ -41,11 +42,8 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="main-container">
       <Header />
-      <Navbar 
-        handleYear={handleYear}
-      />
       <MainContent 
         allMonths={allMonths}
         yearTitle={yearTitle}
@@ -53,6 +51,7 @@ function App() {
         monthTitle={monthTitle}
         handleMonth={handleMonth}
         year={year}
+        handleYear={handleYear}
       />
     </div>
   );
