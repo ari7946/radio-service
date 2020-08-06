@@ -1,10 +1,10 @@
 .main-menu {
-  color: black;
+  // color: black;
   // background: color;
   // position: sticky;
-  top: 0;
-  width: 100%;
-  z-index: 5;
+  // top: 0;
+  // width: 100%;
+  // z-index: 5;
 
   ul {
     list-style-type: none;
@@ -14,19 +14,29 @@
     justify-content: space-evenly;
     text-align: center;
     color: #FFFFFF;
+    margin-top: 8rem;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
 
     li {
+      padding: 1rem 1.7rem;
+
+      &:hover {
+        transition: all .5s ease;
+      }
+        
+      
       a {
         text-decoration: none;
         color: black;
-        font-size: 1.2em;
+        font-size: 1.4em;
         font-weight: 400;
-        padding: 1.7rem 1.3rem;
+        padding: .7rem 1.5rem;
         display: block;
         transition: all .5s ease;
 
         &:hover {
-          color: lightgrey;
+          font-weight: 600;
         }
       }
     }
