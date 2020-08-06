@@ -7,31 +7,40 @@ import data from '../data/data';
 import './main-content.styles.scss'
 
 const MainContent = ({ allMonths, yearTitle, audioData, monthTitle, handleMonth, year, handleYear }) => {
-
+  const firstHalf = allMonths.slice(0, 6);
+  const secondHalf = 
+    year === "sixteen" || year === 'fourteen' ? allMonths.slice(6) : null;
+  console.log('second', firstHalf)
   return (
     <main>
+      <div className="main-wrapper">
 
-      <div className="archive-container">
-        <Navbar 
-          handleYear={handleYear}
+        <PlayerList 
+          monthTitle={monthTitle}
+          audioData={audioData}
         />
 
-        <div className="archive-month-player-wrapper">
+        {firstHalf.length && (
+          <>
           <MonthList 
-            allMonths={allMonths}
+            allMonths={firstHalf}
             yearTitle={yearTitle}
             handleMonth={handleMonth}
             year={year}
           />
+          </>
+        )}
 
-          <PlayerList 
-            monthTitle={monthTitle}
-            audioData={audioData}
+        {secondHalf && (
+          <MonthList 
+            allMonths={secondHalf}
+            yearTitle={yearTitle}
+            handleMonth={handleMonth}
+            year={year}
           />
-        </div>
-      </div>
+        )}
 
-      <Recent />
+      </div>
     </main> 
   )
 }

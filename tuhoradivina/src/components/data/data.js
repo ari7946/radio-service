@@ -137,7 +137,7 @@ const data = {
   sixteen: {
     yearTitle: '2016',
     year: 'sixteen',
-    allMonths: ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre' ],
+    allMonths: ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre' ],
     monthsData: {
       // ************** Enero 2016
       enero: {

@@ -1,6 +1,6 @@
 .main-menu {
-  color: #FFFFFF;
-  background: inherit;
+  color: black;
+  // background: color;
   // position: sticky;
   top: 0;
   width: 100%;
@@ -13,11 +13,12 @@
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+    color: #FFFFFF;
 
     li {
       a {
         text-decoration: none;
-        color: #FFFFFF;
+        color: black;
         font-size: 1.2em;
         font-weight: 400;
         padding: 1.7rem 1.3rem;

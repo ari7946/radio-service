@@ -6,13 +6,13 @@
   border: 1px solid white;
   font-size: 20px;
   padding: .3rem .3rem;
-  margin: .4rem .5rem;
+  margin: 1rem .5rem;
   min-width: 13rem;
   cursor: pointer;
-  background-color: inherit;
+  background-color: rgba(0, 0, 0, .6);
 
   &:hover {
     color: white;
-    background-color: #4CAF50; /* Green */
+    background-color: rgba(0,0,0,.9); /* Green */
   }
 }

@@ -42,18 +42,22 @@ function App() {
   }
 
   return (
-    <div className="main-container">
-      <Header />
-      <MainContent 
-        allMonths={allMonths}
-        yearTitle={yearTitle}
-        audioData={audioData}
-        monthTitle={monthTitle}
-        handleMonth={handleMonth}
-        year={year}
+    <>
+      <Header 
         handleYear={handleYear}
       />
-    </div>
+      <div className="main-container">
+        <MainContent 
+          allMonths={allMonths}
+          yearTitle={yearTitle}
+          audioData={audioData}
+          monthTitle={monthTitle}
+          handleMonth={handleMonth}
+          year={year}
+          handleYear={handleYear}
+        />
+      </div>
+    </>
   );
 }
 
