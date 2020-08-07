@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Month from '../month/month.component';
 import './month-list.styles.scss';
 
-const MonthList = ({ allMonths, yearTitle, handleMonth, year }) => {
+const MonthList = ({ 
+  allMonths, handleMonth, year, handleActiveMonth, activeMonth
+}) => {
+
   return (
     <div className="months-wrapper">
       {allMonths.map(month => (
@@ -10,6 +13,8 @@ const MonthList = ({ allMonths, yearTitle, handleMonth, year }) => {
           month={month} 
           handleMonth={handleMonth}
           year={year}
+          handleActiveMonth={handleActiveMonth}
+          activeMonth={activeMonth}
         />
       ))}
     </div>

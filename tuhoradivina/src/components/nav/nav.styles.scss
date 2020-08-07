@@ -16,6 +16,7 @@
     color: #FFFFFF;
     margin-top: 12rem;
     margin-bottom: 2rem;
+    background-color: rgba(0,0,0, .1);
     // border-bottom: 1px solid grey;
 
     @media all and (max-width: 1200px) {
@@ -33,7 +34,8 @@
 
     li {
       padding: .7rem 2.5rem;
-      background-color: rgba(0,0,0, .1);
+      background-color: rgba(0,0,0, 0);
+      cursor: pointer;
 
       &:nth-child(2) {
         margin: 0 5rem;
@@ -98,5 +100,8 @@
 }
 
 .active-menu {
-  border: 2px solid black;
+  background-color: rgba(0,0,0, .3) !important;
+  a {
+    color: #FFFFFF !important;
+  }
 }

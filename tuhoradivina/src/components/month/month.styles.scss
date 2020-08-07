@@ -12,8 +12,7 @@
   // background-color: rgba(0, 0, 0, .2);
 
   &:hover {
-    color: white;
-    background-color: rgba(0,0,0,.5); 
+    font-weight: bolder;
   }
 
   @media all and (max-width: 1200px) {
@@ -38,4 +37,9 @@
     margin: .5rem 0;
     min-width: 5rem;
   }
+}
+
+.active-month {
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
 }
