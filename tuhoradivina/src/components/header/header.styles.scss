@@ -35,5 +35,11 @@ header {
       font-weight: bolder;
       padding-top: 1rem;
     }
+
+    @media all and (max-width: 400px) {
+      font-size: 22px;
+      font-weight: bolder;
+      padding-top: 1rem;
+    }
   }
 }

@@ -13,5 +13,6 @@
 
   @media all and (max-width: 800px) {
     flex-direction: column;
+    min-width: 8rem;
   }
 }
