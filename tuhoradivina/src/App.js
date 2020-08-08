@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from './components/nav/nav.component';
 import Header from './components/header/header.component';
+import Footer from './components/footer/footer.component';
 import MainContent from './components/main-content/main-content.component';
 import './App.scss';
 import data from './components/data/data';
@@ -57,6 +58,7 @@ function App() {
           handleYear={handleYear}
         />
       </div>
+      {/* <Footer /> */}
     </>
   );
 }
