@@ -1,6 +1,5 @@
 .month-button {
   transition-duration: 0.4s;
-  color: black;
   text-transform: capitalize;
   letter-spacing: 3px;
   border: 1px solid white;
@@ -8,8 +7,10 @@
   padding: .3rem .3rem;
   margin: 1rem .5rem;
   min-width: 10rem;
+  color: var(--color-green-dark);
+  font-weight: 600;
   cursor: pointer;
-  // background-color: rgba(0, 0, 0, .2);
+  // background-color: #FFFAFA;
 
   &:hover {
     font-weight: bolder;
@@ -40,6 +41,7 @@
 }
 
 .active-month {
-  background-color: rgba(0,0,0,.5);
+  // background-color: rgba(0,0,0,.5);
+  background-color: var(--color-green-dark);
   color: #fff;
 }
