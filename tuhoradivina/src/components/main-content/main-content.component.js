@@ -12,8 +12,7 @@ const MainContent = ({ allMonths, yearTitle, audioData, monthTitle, handleMonth,
   const [activeMonthFourteen, setActiveMonthFourteen] = useState('enero');
 
   const firstHalf = allMonths.slice(0, 6);
-  const secondHalf = 
-    year === "sixteen" || year === 'fourteen' ? allMonths.slice(6) : null;
+  const secondHalf = year === "sixteen" || year === 'fourteen' ? allMonths.slice(6) : null;
   let activeMonth;
 
   if (year === 'sixteen') {
@@ -27,11 +26,8 @@ const MainContent = ({ allMonths, yearTitle, audioData, monthTitle, handleMonth,
   }
   
   const handleActiveMonth = (month, currentYear) => {
-    // console.log('month', month)
-    // console.log("year", year)
     if (currentYear === 'sixteen') {
       setActiveMonthSixteen(month);
-      return;
     } else if (currentYear === 'fifteen') {
       setActiveMonthFifteen(month)
     } else if (currentYear === 'fourteen') {
@@ -44,38 +40,34 @@ const MainContent = ({ allMonths, yearTitle, audioData, monthTitle, handleMonth,
   }, [activeMonthSixteen, activeMonthFifteen, activeMonthFourteen, year])
 
   return (
-      <div className="main-wrapper">
-
-        {firstHalf.length && (
-          <>
-          <MonthList 
-            allMonths={firstHalf}
-            yearTitle={yearTitle}
-            handleMonth={handleMonth}
-            year={year}
-            handleActiveMonth={handleActiveMonth}
-            activeMonth={activeMonth}
-          />
-          </>
-        )}
-
-        {secondHalf && (
-          <MonthList 
-            allMonths={secondHalf}
-            yearTitle={yearTitle}
-            handleMonth={handleMonth}
-            year={year}
-            handleActiveMonth={handleActiveMonth}
-            activeMonth={activeMonth}
-          />
-        )}
-
-        <PlayerList 
-          monthTitle={monthTitle}
-          audioData={audioData}
+    <div className="main-wrapper">
+      {firstHalf.length && (
+        <MonthList 
+          allMonths={firstHalf}
+          yearTitle={yearTitle}
+          handleMonth={handleMonth}
+          year={year}
+          handleActiveMonth={handleActiveMonth}
+          activeMonth={activeMonth}
         />
+      )}
 
-      </div>
+      {secondHalf && (
+        <MonthList 
+          allMonths={secondHalf}
+          yearTitle={yearTitle}
+          handleMonth={handleMonth}
+          year={year}
+          handleActiveMonth={handleActiveMonth}
+          activeMonth={activeMonth}
+        />
+      )}
+
+      <PlayerList 
+        monthTitle={monthTitle}
+        audioData={audioData}
+      />
+    </div>
   )
 }
 
