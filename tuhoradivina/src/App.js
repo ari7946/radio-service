@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import Navbar from './components/nav/nav.component';
 import Header from './components/header/header.component';
+import Footer from './components/footer/footer.component';
 import MainContent from './components/main-content/main-content.component';
-import './App.css';
+import './App.scss';
 import data from './components/data/data';
+import { Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   const initialAudioData = data.sixteen.monthsData.enero.audioData;
@@ -41,20 +43,23 @@ function App() {
   }
 
   return (
-    <div>
-      <Header />
-      <Navbar 
+    <>
+      <Header 
         handleYear={handleYear}
       />
-      <MainContent 
-        allMonths={allMonths}
-        yearTitle={yearTitle}
-        audioData={audioData}
-        monthTitle={monthTitle}
-        handleMonth={handleMonth}
-        year={year}
-      />
-    </div>
+      <div className="main-container">
+        <MainContent 
+          allMonths={allMonths}
+          yearTitle={yearTitle}
+          audioData={audioData}
+          monthTitle={monthTitle}
+          handleMonth={handleMonth}
+          year={year}
+          handleYear={handleYear}
+        />
+      </div>
+      {/* <Footer /> */}
+    </>
   );
 }
 
