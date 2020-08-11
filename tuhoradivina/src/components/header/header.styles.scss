@@ -29,6 +29,8 @@ header {
     margin-top: 0;
     font-size: 45px;
     padding-top: 2rem;
+    color: rgba(0, 0, 0, .8);
+    text-shadow: 2px 2px 5px var(--color-green-light);
 
     @media all and (max-width: 600px) {
       font-size: 27px;
