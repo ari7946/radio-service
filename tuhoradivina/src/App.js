@@ -48,14 +48,21 @@ function App() {
         handleYear={handleYear}
       />
       <div className="main-container">
-        <MainContent 
-          allMonths={allMonths}
-          yearTitle={yearTitle}
-          audioData={audioData}
-          monthTitle={monthTitle}
-          handleMonth={handleMonth}
-          year={year}
-          handleYear={handleYear}
+        <Route
+          exact 
+          path='/'
+          render={(props) => (
+            <MainContent 
+              {...props}
+              allMonths={allMonths}
+              yearTitle={yearTitle}
+              audioData={audioData}
+              monthTitle={monthTitle}
+              handleMonth={handleMonth}
+              year={year}
+              handleYear={handleYear}
+            />
+          )}
         />
       </div>
       {/* <Footer /> */}
