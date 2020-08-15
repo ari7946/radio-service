@@ -82,7 +82,7 @@ import fifteenDiciembre2 from '../../assets/audio/06-Diciembre/12-12-2015.mp3'
 import fifteenDiciembre3 from '../../assets/audio/06-Diciembre/19-12-2015.mp3'
 import fifteenDiciembre4 from '../../assets/audio/06-Diciembre/26-12-2015.mp3'
 
-// fourteen
+// *********** fourteen
 import fourteenEnero1 from '../../assets/audio/audio2014/2014-01-04/XEDX1010_13-00.mp3'
 import fourteenEnero2 from '../../assets/audio/audio2014/2014-01-11/XEDX1010_13-00.mp3'
 import fourteenEnero3 from '../../assets/audio/audio2014/2014-01-18/XEDX1010_13-00.mp3'
@@ -132,7 +132,24 @@ import fourteenNoviembre4 from '../../assets/audio/audio2014/2014-11-22/XEDX1010
 
 import fourteenDiciembre1 from '../../assets/audio/audio2014/2014-12-06/XEDX1010_13-00.mp3'
 
+// RECENT
+import recent1 from '../../assets/audio/recent/A-dónde-voy-a-ir.MP3';
+import recent2 from '../../assets/audio/recent/Conocer-A-Dios.mp3';
+import recent3 from '../../assets/audio/recent/Dos-mujeres.mp3';
+
 const data = {
+  recent: [{
+    audioTitle: 'A Dónde Voy a Ir',
+    audioFile: recent1,
+  },
+  {
+    audioTitle: 'Conocer A Dios',
+    audioFile: recent2,
+  },
+  {
+    audioTitle: 'Dos Mujeres',
+    audioFile: recent3,
+  }],
   // ********* 2016 *************************************************
   sixteen: {
     yearTitle: '2016',

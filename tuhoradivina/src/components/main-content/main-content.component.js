@@ -6,7 +6,7 @@ import Navbar from '../nav/nav.component'
 import data from '../data/data';
 import './main-content.styles.scss'
 
-const MainContent = ({ allMonths, yearTitle, audioData, monthTitle, handleMonth, year, handleYear }) => {
+const MainContent = ({ allMonths, yearTitle, audioData, monthTitle, handleMonth, year }) => {
   const [activeMonthSixteen, setActiveMonthSixteen] = useState('enero');
   const [activeMonthFifteen, setActiveMonthFifteen] = useState('julio');
   const [activeMonthFourteen, setActiveMonthFourteen] = useState('enero');
@@ -39,9 +39,10 @@ const MainContent = ({ allMonths, yearTitle, audioData, monthTitle, handleMonth,
     handleActiveMonth();
   }, [activeMonthSixteen, activeMonthFifteen, activeMonthFourteen, year])
 
+  console.log('year', year)
   return (
     <div className="main-wrapper">
-      {firstHalf.length && (
+      {firstHalf.length && year !== 'recent' && (
         <MonthList 
           allMonths={firstHalf}
           yearTitle={yearTitle}
@@ -52,7 +53,7 @@ const MainContent = ({ allMonths, yearTitle, audioData, monthTitle, handleMonth,
         />
       )}
 
-      {secondHalf && (
+      {secondHalf && year !== 'recent' && (
         <MonthList 
           allMonths={secondHalf}
           yearTitle={yearTitle}

@@ -5,7 +5,6 @@ import './player-list.styles.scss';
 const PlayerList = ({ monthTitle, audioData }) => {
   return (
     <div className='player-wrapper'>  
-      {/* <h2>{monthTitle}</h2> */}
       {audioData.map(audio => (
         <div>
           <h2 className="audio-title">{audio.audioTitle}</h2>

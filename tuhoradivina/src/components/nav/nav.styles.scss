@@ -30,48 +30,59 @@
 
     @media all and (max-width: 600px) {
       margin-top: 5rem;
+      flex-wrap: wrap;
     }
 
     li {
       padding: .7rem 2.5rem;
       background-color: rgba(0,0,0, 0);
+      margin-left: 1rem;
+      margin-right: 1rem;
       cursor: pointer;
 
-      &:nth-child(2) {
-        margin: 0 5rem;
-      }
+      // &:nth-child(2) {
+      //   margin: 0 5rem;
+      // }
 
       &:hover {
         font-weight: 600;
       }
 
       @media all and (max-width: 1200px) {
-        &:nth-child(2) {
-          margin: 0 4rem;
-        }
+        // &:nth-child(2) {
+        //   margin: 0 4rem;
+        // }
+        margin-left: 1rem;
+        margin-right: 1rem;
       }
 
       @media all and (max-width: 800px) {
-        &:nth-child(2) {
-          margin: 0 3rem;
-        }
+        // &:nth-child(2) {
+        //   margin: 0 3rem;
+        // }
+        margin-left: .8rem;
+        margin-right: .8rem;
         padding: .5rem 2.1rem
       }
 
       @media all and (max-width: 600px) {
         font-size: 0 1.4rem;
         padding: .3rem 2rem;
-        &:nth-child(2) {
-          margin: 0 2rem;
-        }
+        margin-left: .5rem;
+        margin-right: .5rem;
+        // &:nth-child(2) {
+        //   margin: 0 2rem;
+        // }
       }
 
       @media all and (max-width: 400px) {
         font-size: 0 1.2rem;
         padding: .2rem 1rem;
-        &:nth-child(2) {
-          margin: 0 1.5rem;
-        }
+        margin-left: 1rem;
+        margin-right: 1rem;
+        // &:nth-child(2) {
+        //   margin: 0 1.5rem;
+        // }
       }
         
       a {

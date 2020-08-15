@@ -1,12 +1,24 @@
 import React, { useState } from 'react';
 import './nav.styles.scss';
 
-const NavBar = ({ handleYear }) => {
+const NavBar = ({ handleYear, handleRecent }) => {
   const [active, setActive] = useState('sixteen');
 
   return (
     <nav className="main-menu">
       <ul>
+        <li
+          onClick={() => {
+            setActive('recent')
+            handleRecent()
+          }}
+          className={`
+            ${active === 'recent' ? 'active-menu' : null}
+          `}
+        >
+          <a href="#">2017+</a>
+        </li>
+
         <li
           onClick={() => {
             handleYear('sixteen')

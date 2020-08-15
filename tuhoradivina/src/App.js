@@ -33,7 +33,9 @@ function App() {
     // 2016 and 2016 both begin in Janurary, while 2015 begins in July. 
     // (according to the data available, obviously not on an actual calendar) 
     const { monthTitle, audioData } = 
-      yearSelected === 'fifteen' ? monthsData.julio : monthsData.enero;
+      yearSelected === 'fifteen' 
+        ? monthsData.julio 
+        : monthsData.enero;
 
     setAllMonths(allMonths);
     setYearTitle(yearTitle);
@@ -42,10 +44,16 @@ function App() {
     setAudioData(audioData);
   }
 
+  const handleRecent = () => {
+    setAudioData(data.recent);
+    setYear('recent');
+  }
+
   return (
     <>
       <Header 
         handleYear={handleYear}
+        handleRecent={handleRecent}
       />
       <div className="main-container">
         <Switch>
