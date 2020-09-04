@@ -46,7 +46,7 @@ There's quite a bit of data, but it is "normalized" for constant time lookups (N
 &nbsp;
 
 
-#### example - data.js 
+example - data.js 
 ```js
 const data = {
   // ********* 2016 *************************************************
@@ -78,11 +78,11 @@ const data = {
 &nbsp;
 
 
-### We can use the above example data to handle our years and months to update the state
+We can use the above example data to handle our years and months to update the state
 &nbsp;
 
  
-#### handleMonth - App.js
+handleMonth - App.js
 ```javascript
   const handleMonth = (month) => {
     const monthData = data[year].monthsData[month];
@@ -93,7 +93,7 @@ const data = {
 ```
 &nbsp;
 
-#### handleYear - App.js
+handleYear - App.js
 ```javascript
   const handleYear = (yearSelected) => {
     const { yearTitle, year, allMonths, monthsData } = data[yearSelected];
