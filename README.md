@@ -2,7 +2,7 @@
 
 This website allows users to find and listen to dozens of recordings from a radio talk show.
 
-[Radio Tu Hora Divina](https://radiotuhoradivina.com/)
+[Open deployed site](https://radiotuhoradivina.com/)
 
 #### Desktop View
 <img src="https://i.ibb.co/jfSFKXn/desktop-radio.png" width="3000" height="600" />
@@ -22,15 +22,14 @@ This website allows users to find and listen to dozens of recordings from a radi
     - [react](https://reactjs.org/docs/getting-started.html)
     - [react-router-dom](https://www.npmjs.com/package/react-router-dom)
     - [node-sass](https://github.com/sass/node-sass)
-    - [react-audio-player](https://www.npmjs.com/package/react-audio-player))
+    - [react-audio-player](https://www.npmjs.com/package/react-audio-player)
 
-##### Using the Application
+#### Using the Application
 
 Requirements: 
 - Node
 - Package Manager (such as Yarn or npm)
 
-Have Node? Have **Yarn** or **npm**?
 Follow these steps:
 
 1. Fork and clone repo
@@ -42,7 +41,7 @@ Follow these steps:
 4. Run `yarn start` or `npm start` on the client folder to run the frontend on `localhost:3000`
 
 ## How Data is Structured
-There's quite a bit of data, but it is "normalized" for constant time lookups (Not including network latency).
+#### There's quite a bit of data, but it is "normalized" for constant time lookups (Not including network latency).
 &nbsp;
 
 
@@ -78,7 +77,7 @@ const data = {
 &nbsp;
 
 
-We can use the above example data to handle our years and months to update the state
+#### We can use the above example data to handle our years and months to update the state
 &nbsp;
 
  
