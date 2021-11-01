@@ -8,6 +8,11 @@
   color: gray;
   font-size: 11px;
 
+  @media all and (max-width: 1200px) {
+    margin-top: 5rem;
+    height: 4rem;
+  }
+
   @media all and (max-width: 600px) {
     margin-top: 5rem;
   }
