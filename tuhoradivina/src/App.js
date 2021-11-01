@@ -43,32 +43,30 @@ function App() {
   }
 
   return (
-    <>
+    <div className="main-container">
       <Header 
         handleYear={handleYear}
       />
-      <div className="main-container">
-        <Switch>
-          <Route
-            exact 
-            path='/'
-            render={(props) => (
-              <MainContent 
-                {...props}
-                allMonths={allMonths}
-                yearTitle={yearTitle}
-                audioData={audioData}
-                monthTitle={monthTitle}
-                handleMonth={handleMonth}
-                year={year}
-                handleYear={handleYear}
-              />
-            )}
-          />
-        </Switch> 
-      </div>
-      {/* <Footer /> */}
-    </>
+      <Switch>
+        <Route
+          exact 
+          path='/'
+          render={(props) => (
+            <MainContent 
+              {...props}
+              allMonths={allMonths}
+              yearTitle={yearTitle}
+              audioData={audioData}
+              monthTitle={monthTitle}
+              handleMonth={handleMonth}
+              year={year}
+              handleYear={handleYear}
+            />
+          )}
+        />
+      </Switch> 
+      <Footer className="footer-content"/>
+    </div>
   );
 }
 

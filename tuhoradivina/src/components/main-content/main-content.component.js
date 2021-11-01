@@ -5,6 +5,7 @@ import Recent from '../recent/recent.component';
 import Navbar from '../nav/nav.component'
 import data from '../data/data';
 import './main-content.styles.scss'
+import Header from '../header/header.component'
 
 const MainContent = ({ allMonths, yearTitle, audioData, monthTitle, handleMonth, year, handleYear }) => {
   const [activeMonthSixteen, setActiveMonthSixteen] = useState('enero');

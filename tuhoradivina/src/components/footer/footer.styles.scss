@@ -1,13 +1,14 @@
 
 .footer {
-  background-image: linear-gradient(to top, rgba(255, 255, 255, .4), rgba(255, 255, 255, 1)), url('../../assets/images/boat-water.png');
-  background-repeat: no-repeat;
-  background-position: center center;
-  // background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 8rem;
-  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid lightgrey;
+  height: 5rem;
+  color: gray;
+  font-size: 11px;
+
+  @media all and (max-width: 600px) {
+    margin-top: 5rem;
+  }
 }

@@ -3,9 +3,9 @@ import './footer.styles.scss';
 
 const Footer = () => {
   return (
-    <div>
-      <div className="footer"></div>
-    </div>
+    <footer className='footer'>
+      &copy; Copyright 2021 Radio Tu Hora Divina
+    </footer>
   );
 }
 
