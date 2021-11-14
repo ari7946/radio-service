@@ -143,16 +143,16 @@ const data = {
       enero: {
         monthTitle: 'Enero 2016',
         audioData: [{
-          audioTitle: "02-01-2016",
+          audioTitle: "Episode 1",
           audioFile: sixteenEnero1
         }, {
-          audioTitle: "09-01-2016",
+          audioTitle: "Episode 2",
           audioFile: sixteenEnero2
         }, {
-          audioTitle: "16-01-2016",
+          audioTitle: "Episode 3",
           audioFile: sixteenEnero3,
         }, {
-          audioTitle: "23-01-2016",
+          audioTitle: "Episode 4",
           audioFile: sixteenEnero4
         }],
       },
@@ -160,16 +160,16 @@ const data = {
       febrero: {
         monthTitle: 'Febrero 2016',
         audioData: [{
-          audioTitle: "06-02-2016",
+          audioTitle: "Episode 1",
           audioFile: sixteenFebrero1
         }, {
-          audioTitle: "13-02-2016",
+          audioTitle: "Episode 2",
           audioFile: sixteenFebrero2
         }, {
-          audioTitle: "20-02-2016",
+          audioTitle: "Episode 3",
           audioFile: sixteenFebrero3,
         }, {
-          audioTitle: "27-02-2016",
+          audioTitle: "Episode 4",
           audioFile: sixteenFebrero4,
         }],
       },
@@ -177,16 +177,16 @@ const data = {
       marzo: {
         monthTitle: 'Marzo 2016',
         audioData: [{
-          audioTitle: "05-03-2016",
+          audioTitle: "Episode 1",
           audioFile: sixteenMarzo1
         }, {
-          audioTitle: "12-03-2016",
+          audioTitle: "Episode 2",
           audioFile: sixteenMarzo2
         }, {
-          audioTitle: "19-03-2016",
+          audioTitle: "Episode 3",
           audioFile: sixteenMarzo3,
         }, {
-          audioTitle: "26-03-2016",
+          audioTitle: "Episode 4",
           audioFile: sixteenMarzo4,
         }],
       },
@@ -194,13 +194,13 @@ const data = {
       abril: {
         monthTitle: 'Abril 2016',
         audioData: [{
-          audioTitle: "02-04-2016",
+          audioTitle: "Episode 1",
           audioFile: sixteenAbril1
         }, {
-          audioTitle: "16-04-2016",
+          audioTitle: "Episode 2",
           audioFile: sixteenAbril2
         }, {
-          audioTitle: "30-04-2016",
+          audioTitle: "Episode 3",
           audioFile: sixteenAbril3,
         }],
       },
@@ -208,16 +208,16 @@ const data = {
       mayo: {
         monthTitle: 'Mayo 2016',
         audioData: [{
-          audioTitle: "07-05-2016",
+          audioTitle: "Episode 1",
           audioFile: sixteenMayo1
         }, {
-          audioTitle: "14-05-2016",
+          audioTitle: "Episode 2",
           audioFile: sixteenMayo2
         }, {
-          audioTitle: "21-05-2016",
+          audioTitle: "Episode 3",
           audioFile: sixteenMayo3,
         }, {
-          audioTitle: "28-05-2016",
+          audioTitle: "Episode 4",
           audioFile: sixteenMayo4,
         }],
       },
@@ -225,16 +225,16 @@ const data = {
       junio: {
         monthTitle: 'Junio 2016',
         audioData: [{
-          audioTitle: "04-06-2016",
+          audioTitle: "Episode 1",
           audioFile: sixteenJunio1
         }, {
-          audioTitle: "11-06-2016",
+          audioTitle: "Episode 2",
           audioFile: sixteenJunio2
         }, {
-          audioTitle: "18-06-2016",
+          audioTitle: "Episode 3",
           audioFile: sixteenJunio3,
         }, {
-          audioTitle: "25-06-2016",
+          audioTitle: "Episode 4",
           audioFile: sixteenJunio4,
         }],
       },
@@ -242,16 +242,16 @@ const data = {
       julio: {
         monthTitle: 'Julio 2016',
         audioData: [{
-          audioTitle: "2016-07-02",
+          audioTitle: "Episode 1",
           audioFile: sixteenJulio1
         }, {
-          audioTitle: "2016-07-09",
+          audioTitle: "Episode 2",
           audioFile: sixteenJulio2
         }, {
-          audioTitle: "2016-07-16",
+          audioTitle: "Episode 3",
           audioFile: sixteenJulio3,
         }, {
-          audioTitle: "2016-07-23",
+          audioTitle: "Episode 4",
           audioFile: sixteenJulio4,
         }],
       },
@@ -259,13 +259,13 @@ const data = {
       agosto: {
         monthTitle: 'Agosto 2016',
         audioData: [{
-          audioTitle: "2016-08-13",
+          audioTitle: "Episode 1",
           audioFile: sixteenAgosto1
         }, {
-          audioTitle: "2016-08-20",
+          audioTitle: "Episode 2",
           audioFile: sixteenAgosto2
         }, {
-          audioTitle: "2016-08-27",
+          audioTitle: "Episode 3",
           audioFile: sixteenAgosto3,
         }],
       },
@@ -273,13 +273,13 @@ const data = {
       septiembre: {
         monthTitle: 'Septiembre 2016',
         audioData: [{
-          audioTitle: "2016-09-03",
+          audioTitle: "Episode 1",
           audioFile: sixteenSeptiembre1
         }, {
-          audioTitle: "2016-09-17",
+          audioTitle: "Episode 2",
           audioFile: sixteenSeptiembre2
         }, {
-          audioTitle: "2016-09-24",
+          audioTitle: "Episode 3",
           audioFile: sixteenSeptiembre3,
         }],
       },
@@ -287,13 +287,13 @@ const data = {
       octubre: {
         monthTitle: 'Octubre 2016',
         audioData: [{
-          audioTitle: "2016-10-01",
+          audioTitle: "Episode 1",
           audioFile: sixteenOctubre1
         }, {
-          audioTitle: "2016-10-08",
+          audioTitle: "Episode 2",
           audioFile: sixteenOctubre2
         }, {
-          audioTitle: "2016-10-29",
+          audioTitle: "Episode 3",
           audioFile: sixteenOctubre3,
         }],
       },
@@ -301,16 +301,16 @@ const data = {
       noviembre: {
         monthTitle: 'Noviembre 2016',
         audioData: [{
-          audioTitle: "2016-11-05",
+          audioTitle: "Episode 1",
           audioFile: sixteenNoviembre1
         }, {
-          audioTitle: "2016-11-12",
+          audioTitle: "Episode 2",
           audioFile: sixteenNoviembre2
         }, {
-          audioTitle: "2016-11-19",
+          audioTitle: "Episode 3",
           audioFile: sixteenNoviembre3,
         }, {
-          audioTitle: "2016-11-26",
+          audioTitle: "Episode 4",
           audioFile: sixteenNoviembre4,
         }],
       },
@@ -328,16 +328,16 @@ const data = {
       julio: {
         monthTitle: 'Julio 2015',
         audioData: [{
-          audioTitle: "04-07-2015",
+          audioTitle: "Episode 1",
           audioFile: fifteenJulio1,
         }, {
-          audioTitle: "11-07-2015",
+          audioTitle: "Episode 2",
           audioFile: fifteenJulio2,
         }, {
-          audioTitle: "18-07-2015",
+          audioTitle: "Episode 3",
           audioFile: fifteenJulio3,
         }, {
-          audioTitle: "25-07-2015",
+          audioTitle: "Episode 4",
           audioFile: fifteenJulio4,
         }]
       },
@@ -345,16 +345,16 @@ const data = {
       agosto: {
         monthTitle: 'Agosto 2015',
         audioData: [{
-          audioTitle: "01-08-2015",
+          audioTitle: "Episode 1",
           audioFile: fifteenAgosto1,
         }, {
-          audioTitle: "08-08-2015",
+          audioTitle: "Episode 2",
           audioFile: fifteenAgosto2,
         }, {
-          audioTitle: "22-08-2015",
+          audioTitle: "Episode 3",
           audioFile: fifteenAgosto3,
         }, {
-          audioTitle: "29-08-2015",
+          audioTitle: "Episode 4",
           audioFile: fifteenAgosto4,
         }]
       },
@@ -362,16 +362,16 @@ const data = {
       septiembre: {
         monthTitle: 'Septiembre 2015',
         audioData: [{
-          audioTitle: "05-09-2015",
+          audioTitle: "Episode 1",
           audioFile: fifteenSeptiembre1,
         }, {
-          audioTitle: "12-09-2015",
+          audioTitle: "Episode 2",
           audioFile: fifteenSeptiembre2,
         }, {
-          audioTitle: "19-09-2015",
+          audioTitle: "Episode 3",
           audioFile: fifteenSeptiembre3,
         }, {
-          audioTitle: "26-09-2015",
+          audioTitle: "Episode 4",
           audioFile: fifteenSeptiembre4,
         }]
       },
@@ -379,16 +379,16 @@ const data = {
       octubre: {
         monthTitle: 'Octubre 2015',
         audioData: [{
-          audioTitle: "03-10-2015",
+          audioTitle: "Episode 1",
           audioFile: fifteenOctubre1,
         }, {
-          audioTitle: "10-10-2015",
+          audioTitle: "Episode 2",
           audioFile: fifteenOctubre2,
         }, {
-          audioTitle: "24-10-2015",
+          audioTitle: "Episode 3",
           audioFile: fifteenOctubre3,
         }, {
-          audioTitle: "31-10-2015",
+          audioTitle: "Episode 4",
           audioFile: fifteenOctubre4,
         }]
       },
@@ -396,16 +396,16 @@ const data = {
       noviembre: {
         monthTitle: 'Noviembre 2015',
         audioData: [{
-          audioTitle: "07-11-2015",
+          audioTitle: "Episode 1",
           audioFile: fifteenNoviembre1,
         }, {
-          audioTitle: "14-11-2015",
+          audioTitle: "Episode 2",
           audioFile: fifteenNoviembre2,
         }, {
-          audioTitle: "21-11-2015",
+          audioTitle: "Episode 3",
           audioFile: fifteenNoviembre3,
         }, {
-          audioTitle: "28-11-2015",
+          audioTitle: "Episode 4",
           audioFile: fifteenNoviembre4,
         }]
       },
@@ -413,16 +413,16 @@ const data = {
       diciembre: {
         monthTitle: 'Diciembre 2015',
         audioData: [{
-          audioTitle: "05-12-2015",
+          audioTitle: "Episode 1",
           audioFile: fifteenDiciembre1,
         }, {
-          audioTitle: "12-12-2015",
+          audioTitle: "Episode 2",
           audioFile: fifteenDiciembre2,
         }, {
-          audioTitle: "19-12-2015",
+          audioTitle: "Episode 3",
           audioFile: fifteenDiciembre3,
         }, {
-          audioTitle: "26-12-2015",
+          audioTitle: "Episode 4",
           audioFile: fifteenDiciembre4,
         }]
       },
@@ -440,16 +440,16 @@ const data = {
       enero: {
         monthTitle: 'Enero 2014',
         audioData: [{
-          audioTitle: "2014-01-04",
+          audioTitle: "Episode 1",
           audioFile: fourteenEnero1,
         }, {
-          audioTitle: "2014-01-11",
+          audioTitle: "Episode 2",
           audioFile: fourteenEnero2,
         }, {
-          audioTitle: "2014-01-18",
+          audioTitle: "Episode 3",
           audioFile: fourteenEnero3,
         }, {
-          audioTitle: "2014-01-25",
+          audioTitle: "Episode 4",
           audioFile: fourteenEnero4,
         }]
       },
@@ -457,16 +457,16 @@ const data = {
       febrero: {
         monthTitle: 'Febrero 2014',
         audioData: [{
-          audioTitle: "2014-02-01",
+          audioTitle: "Episode 1",
           audioFile: fourteenFebrero1,
         }, {
-          audioTitle: "2014-02-08",
+          audioTitle: "Episode 2",
           audioFile: fourteenFebrero2,
         }, {
-          audioTitle: "2014-02-15",
+          audioTitle: "Episode 3",
           audioFile: fourteenFebrero3,
         }, {
-          audioTitle: "2014-02-22",
+          audioTitle: "Episode 4",
           audioFile: fourteenFebrero4,
         }]
       },
@@ -474,16 +474,16 @@ const data = {
       marzo: {
         monthTitle: 'Marzo 2014',
         audioData: [{
-          audioTitle: "2014-03-01",
+          audioTitle: "Episode 1",
           audioFile: fourteenMarzo1,
         }, {
-          audioTitle: "2014-03-08",
+          audioTitle: "Episode 2",
           audioFile: fourteenMarzo2,
         }, {
-          audioTitle: "2014-03-15",
+          audioTitle: "Episode 3",
           audioFile: fourteenMarzo3,
         }, {
-          audioTitle: "2014-03-22",
+          audioTitle: "Episode 4",
           audioFile: fourteenMarzo4,
         }]
       },
@@ -491,16 +491,16 @@ const data = {
       abril: {
         monthTitle: 'Abril 2014',
         audioData: [{
-          audioTitle: "2014-04-05",
+          audioTitle: "Episode 1",
           audioFile: fourteenAbril1,
         }, {
-          audioTitle: "2014-04-12",
+          audioTitle: "Episode 2",
           audioFile: fourteenAbril2,
         }, {
-          audioTitle: "2014-04-19",
+          audioTitle: "Episode 3",
           audioFile: fourteenAbril3,
         }, {
-          audioTitle: "2014-04-26",
+          audioTitle: "Episode 4",
           audioFile: fourteenAbril4,
         }]
       },
@@ -508,16 +508,16 @@ const data = {
       mayo: {
         monthTitle: 'Mayo 2014',
         audioData: [{
-          audioTitle: "2014-05-10",
+          audioTitle: "Episode 1",
           audioFile: fourteenMayo1,
         }, {
-          audioTitle: "2014-05-17",
+          audioTitle: "Episode 2",
           audioFile: fourteenMayo2,
         }, {
-          audioTitle: "2014-05-24",
+          audioTitle: "Episode 3",
           audioFile: fourteenMayo3,
         }, {
-          audioTitle: "2014-05-31",
+          audioTitle: "Episode 4",
           audioFile: fourteenMayo4,
         }]
       },
@@ -525,7 +525,7 @@ const data = {
       junio: {
         monthTitle: 'Junio 2014',
         audioData: [{
-          audioTitle: "2014-06-07",
+          audioTitle: "Episode 1",
           audioFile: fourteenJunio1,
         }]
       },
@@ -533,7 +533,7 @@ const data = {
       julio: {
         monthTitle: 'Julio 2014',
         audioData: [{
-          audioTitle: "2014-07-19",
+          audioTitle: "Episode 1",
           audioFile: fourteenJulio1,
         }]
       },
@@ -541,16 +541,16 @@ const data = {
       agosto: {
         monthTitle: 'Agosto 2014',
         audioData: [{
-          audioTitle: "2014-08-02",
+          audioTitle: "Episode 1",
           audioFile: fourteenAgosto1,
         }, {
-          audioTitle: "2014-08-09",
+          audioTitle: "Episode 2",
           audioFile: fourteenAgosto2,
         }, {
-          audioTitle: "2014-08-16",
+          audioTitle: "Episode 3",
           audioFile: fourteenAgosto3,
         }, {
-          audioTitle: "2014-08-23",
+          audioTitle: "Episode 4",
           audioFile: fourteenAgosto4,
         }]
       },
@@ -558,10 +558,10 @@ const data = {
       septiembre: {
         monthTitle: 'Septiembre 2014',
         audioData: [{
-          audioTitle: "2014-09-06",
+          audioTitle: "Episode 1",
           audioFile: fourteenSeptiembre1,
         }, {
-          audioTitle: "2014-09-20",
+          audioTitle: "Episode 2",
           audioFile: fourteenSeptiembre2,
         }]
       },
@@ -569,16 +569,16 @@ const data = {
       octubre: {
         monthTitle: 'Octubre 2014',
         audioData: [{
-          audioTitle: "2014-10-04",
+          audioTitle: "Episode 1",
           audioFile: fourteenOctubre1,
         }, {
-          audioTitle: "2014-10-11",
+          audioTitle: "Episode 2",
           audioFile: fourteenOctubre2,
         }, {
-          audioTitle: "2014-10-18",
+          audioTitle: "Episode 3",
           audioFile: fourteenOctubre3,
         }, {
-          audioTitle: "2014-10-25",
+          audioTitle: "Episode 4",
           audioFile: fourteenOctubre4,
         }]
       },
@@ -586,16 +586,16 @@ const data = {
       noviembre: {
         monthTitle: 'Noviembre 2014',
         audioData: [{
-          audioTitle: "2014-11-01",
+          audioTitle: "Episode 1",
           audioFile: fourteenNoviembre1,
         }, {
-          audioTitle: "2014-11-08",
+          audioTitle: "Episode 2",
           audioFile: fourteenNoviembre2,
         }, {
-          audioTitle: "2014-11-15",
+          audioTitle: "Episode 3",
           audioFile: fourteenNoviembre3,
         }, {
-          audioTitle: "2014-11-22",
+          audioTitle: "Episode 4",
           audioFile: fourteenNoviembre4,
         }]
       },
@@ -603,7 +603,7 @@ const data = {
       diciembre: {
         monthTitle: 'Diciembre 2014',
         audioData: [{
-          audioTitle: "2014-12-06",
+          audioTitle: "Episode 1",
           audioFile: fourteenDiciembre1,
         }]
       },
