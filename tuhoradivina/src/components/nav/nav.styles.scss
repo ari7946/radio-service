@@ -11,7 +11,7 @@
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
     color: #FFFFFF;
     margin-top: 12rem;
@@ -36,6 +36,7 @@
       padding: .7rem 2.5rem;
       background-color: rgba(0,0,0, 0);
       cursor: pointer;
+      margin: 0 5rem;
 
       &:nth-child(2) {
         margin: 0 5rem;
@@ -52,6 +53,7 @@
       }
 
       @media all and (max-width: 800px) {
+        margin: 0 auto;
         &:nth-child(2) {
           margin: 0 3rem;
         }

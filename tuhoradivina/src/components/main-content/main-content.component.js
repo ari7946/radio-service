@@ -1,11 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import MonthList from '../month-list/month-list.component';
 import PlayerList from '../player-list/player-list.component';
-import Recent from '../recent/recent.component';
-import Navbar from '../nav/nav.component'
-import data from '../data/data';
 import './main-content.styles.scss'
-import Header from '../header/header.component'
+
 
 const MainContent = ({ allMonths, yearTitle, audioData, monthTitle, handleMonth, year, handleYear }) => {
   const [activeMonthSixteen, setActiveMonthSixteen] = useState('enero');
