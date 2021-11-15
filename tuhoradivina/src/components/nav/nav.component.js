@@ -16,7 +16,7 @@ const NavBar = ({ handleYear }) => {
             ${active === 'sixteen' ? 'active-menu' : null}
           `}
         >
-          <a href="#">2016</a>
+          <a href="#">Temporada 1</a>
         </li>
 
         <li
@@ -28,7 +28,7 @@ const NavBar = ({ handleYear }) => {
             ${active === 'fifteen' ? 'active-menu' : null}
           `}
         >
-          <a href="#">2015</a>
+          <a href="#">Temporada 2</a>
         </li>
 
         <li
@@ -39,7 +39,7 @@ const NavBar = ({ handleYear }) => {
           className={`
             ${active === 'fourteen' ? 'active-menu' : null}
           `}>
-          <a href="#">2014</a>
+          <a href="#">Temporada 3</a>
         </li>
       </ul>
     </nav>

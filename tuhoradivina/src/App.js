@@ -4,10 +4,12 @@ import Header from './components/header/header.component';
 import Footer from './components/footer/footer.component';
 import MainContent from './components/main-content/main-content.component';
 import './App.scss';
-import data from './components/data/data';
+import {getData, useData} from './components/data/data';
 import { Router, Switch, Route } from 'react-router-dom';
 
 function App() {
+  const data = getData('spanish');
+
   const initialAudioData = data.sixteen.monthsData.enero.audioData;
   const initialAllMonths = data.sixteen.allMonths;
   const initialYearTitle = data.sixteen.yearTitle;

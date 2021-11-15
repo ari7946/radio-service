@@ -10,7 +10,9 @@ const MainContent = ({ allMonths, yearTitle, audioData, monthTitle, handleMonth,
   const [activeMonthFourteen, setActiveMonthFourteen] = useState('enero');
 
   const firstHalf = allMonths.slice(0, 6);
-  const secondHalf = year === "sixteen" || year === 'fourteen' ? allMonths.slice(6) : null;
+  const secondHalf = year === "sixteen" || year === 'fourteen' 
+    ? allMonths.slice(6) 
+    : null;
   let activeMonth;
 
   if (year === 'sixteen') {
