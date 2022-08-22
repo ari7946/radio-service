@@ -9,7 +9,7 @@ import { Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   const data = getData('spanish');
-
+  
   const initialAudioData = data.sixteen.monthsData.enero.audioData;
   const initialAllMonths = data.sixteen.allMonths;
   const initialYearTitle = data.sixteen.yearTitle;
