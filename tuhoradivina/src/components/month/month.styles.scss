@@ -1,47 +1,47 @@
 .month-button {
-  transition-duration: 0.4s;
-  text-transform: capitalize;
-  letter-spacing: 3px;
-  border: 1px solid white;
-  font-size: 20px;
-  padding: .3rem .3rem;
-  margin: 1rem .5rem;
-  min-width: 10rem;
-  color: var(--color-green-dark);
-  font-weight: 600;
-  cursor: pointer;
-  // background-color: #FFFAFA;
+	transition-duration: 0.4s;
+	text-transform: capitalize;
+	letter-spacing: 3px;
+	border: 1px solid white;
+	font-size: 20px;
+	padding: 0.3rem 0.3rem;
+	margin: 1rem 0.5rem;
+	min-width: 10rem;
+	color: var(--color-green-dark);
+	font-weight: 600;
+	cursor: pointer;
+	// background-color: #FFFAFA;
 
-  &:hover {
-    font-weight: bolder;
-  }
+	&:hover {
+		font-weight: bolder;
+	}
 
-  @media all and (max-width: 1200px) {
-    font-size: 18px;
-    letter-spacing: 2px;
-    padding: .3rem .1rem;
-    margin: 1rem .4rem;
-  }
+	@media all and (max-width: 1313px) {
+		font-size: 18px;
+		letter-spacing: 2px;
+		padding: 0.3rem 0.1rem;
+		margin: 1rem 0.4rem;
+	}
 
-  @media all and (max-width: 800px) {
-    font-size: 18px;
-    letter-spacing: 2px;
-    padding: .3rem 0;
-    margin: .5rem 0;
-    min-width: 5rem;
-  }
+	@media all and (max-width: 800px) {
+		font-size: 18px;
+		letter-spacing: 2px;
+		padding: 0.3rem 0;
+		margin: 0.5rem 0;
+		min-width: 5rem;
+	}
 
-    @media all and (max-width: 500px) {
-    font-size: 15px;
-    letter-spacing: 2px;
-    padding: .2rem 0;
-    margin: .5rem 0;
-    min-width: 5rem;
-  }
+	@media all and (max-width: 500px) {
+		font-size: 15px;
+		letter-spacing: 2px;
+		padding: 0.2rem 0;
+		margin: 0.5rem 0;
+		min-width: 5rem;
+	}
 }
 
 .active-month {
-  // background-color: rgba(0,0,0,.5);
-  background-color: var(--color-green-dark);
-  color: #fff;
+	// background-color: rgba(0,0,0,.5);
+	background-color: var(--color-green-dark);
+	color: #fff;
 }

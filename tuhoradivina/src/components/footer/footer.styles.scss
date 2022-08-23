@@ -1,19 +1,18 @@
-
 .footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-top: 1px solid lightgrey;
-  height: 5rem;
-  color: gray;
-  font-size: 11px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-top: 1px solid lightgrey;
+	height: 5rem;
+	color: gray;
+	font-size: 11px;
 
-  @media all and (max-width: 1200px) {
-    margin-top: 5rem;
-    height: 4rem;
-  }
+	@media all and (max-width: 1313px) {
+		margin-top: 5rem;
+		height: 4rem;
+	}
 
-  @media all and (max-width: 600px) {
-    margin-top: 5rem;
-  }
+	@media all and (max-width: 600px) {
+		margin-top: 5rem;
+	}
 }

@@ -1,19 +1,19 @@
 .months-wrapper {
-  display: flex;
-  justify-content: space-between;
-  height: auto;
-  min-width: 12rem;
-  margin: 0 4.5rem;
+	display: flex;
+	justify-content: space-between;
+	height: auto;
+	min-width: 12rem;
+	margin: 0 4.5rem;
 
-  @media all and (max-width: 1200px) {
-    height: auto;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin: 0 auto;
-  }
+	@media all and (max-width: 1313px) {
+		height: auto;
+		flex-direction: column;
+		justify-content: space-evenly;
+		margin: 0 auto;
+	}
 
-  @media all and (max-width: 800px) {
-    flex-direction: column;
-    min-width: 8rem;
-  }
+	@media all and (max-width: 800px) {
+		flex-direction: column;
+		min-width: 8rem;
+	}
 }
