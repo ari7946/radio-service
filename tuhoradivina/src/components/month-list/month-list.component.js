@@ -10,7 +10,7 @@ const MonthList = ({
 	activeMonth,
 }) => {
 	return (
-		<div className='months-wrapper'>
+		<aside className='months-wrapper'>
 			{allMonths.map((month) => (
 				<Month
 					month={month}
@@ -21,7 +21,7 @@ const MonthList = ({
 					key={`${month}/${year}`}
 				/>
 			))}
-		</div>
+		</aside>
 	);
 };
 

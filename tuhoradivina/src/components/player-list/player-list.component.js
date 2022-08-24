@@ -4,14 +4,14 @@ import './player-list.styles.scss';
 
 const PlayerList = ({ monthTitle, audioData }) => {
 	return (
-		<div className='player-wrapper'>
+		<main className='player-wrapper'>
 			{audioData.map((audio) => (
-				<div key={audio.audioFile}>
+				<article key={audio.audioFile}>
 					<h2 className='audio-title'>{audio.audioTitle}</h2>
 					<ReactAudioPlayer audioFile={audio.audioFile} />
-				</div>
+				</article>
 			))}
-		</div>
+		</main>
 	);
 };
 
