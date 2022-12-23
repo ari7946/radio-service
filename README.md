@@ -1,4 +1,4 @@
-## Radio Tu Hora Divina
+## Spanish Radio And Podcast
 
 This website allows users to find and listen to dozens of recordings from a radio talk show.
 
